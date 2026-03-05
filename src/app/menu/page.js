@@ -1,7 +1,7 @@
 export default function Menu() {
   return (
     <div>
-      <p>Menu</p>
+      <p className="font-primary">Menu</p>
     </div>
   );
 }
