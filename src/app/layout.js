@@ -1,4 +1,4 @@
-import { Montserrat } from 'next/font/google';
+import { Montserrat, Poetsen_One, Rubik } from 'next/font/google';
 import './globals.css';
 import Navbar from './components/navbar';
 import Footer from './components/footer';
@@ -6,6 +6,18 @@ import Footer from './components/footer';
 const montserrat = Montserrat({
   subsets: ['latin'],
   variable: '--font-montserrat'
+});
+
+const poetsenOne = Poetsen_One({
+  subsets: ['latin'],
+  variable: '--font-poetsen-one',
+  weight: '400'
+});
+
+const rubik = Rubik({
+  subsets: ['latin'],
+  variable: '--font-rubik',
+  weight: ['300', '400', '500', '600', '700']
 });
 
 export const metadata = {
@@ -16,8 +28,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={`${montserrat.className} antialiased`}>
+    <html
+      lang="en"
+      className={`${montserrat.variable} ${poetsenOne.variable} ${rubik.variable} antialiased`}
+    >
+      <body>
         <Navbar />
         <main className="pt-20">{children}</main>
         <Footer />

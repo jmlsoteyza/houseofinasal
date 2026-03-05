@@ -18,16 +18,16 @@ export default function Navbar() {
             </div>
           </Link>
 
-          <ul className="flex gap-6 ml-14 font-bold">
-            <Link href="/menu">
-              <li>Menu</li>
-            </Link>
-            <Link href="/">
-              <li>Home</li>
-            </Link>
-            <Link href="/location">
-              <li>Location</li>
-            </Link>
+          <ul className="flex gap-6 ml-14 font-medium font-ui">
+            <li>
+              <Link href="/menu">Menu</Link>
+            </li>
+            <li>
+              <Link href="/">Home</Link>
+            </li>
+            <li>
+              <Link href="/location">Location</Link>
+            </li>
           </ul>
         </div>
 
