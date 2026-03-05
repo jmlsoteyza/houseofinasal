@@ -31,29 +31,4 @@ export default function Navbar() {
   );
 }
 
-// return (
-//   <div className="shadow-[0px_0px_10px_0px_rgba(0,0,0,0.5)] ">
-//     <div className="w-full max-w-[1450px] mx-auto mx-12 flex items-center flex-1 px-6 py-6">
-//       <div className="flex items-center flex-1">
-//         <div className="w-full max-w-[10.1875rem] h-full cursor-pointer">
-//           <Image
-//             src="/images/logo.svg"
-//             alt="hof-logo"
-//             width={163}
-//             height={59}
-//             className="w-full rounded-sm"
-//           />
-//         </div>
-//         <ul className="flex gap-3 ml-8 font-bold">
-//           <li>Menu</li>
-//           <li>Location</li>
-//           <li>Home</li>
-//         </ul>
-//       </div>
-//       <div className="flex flex-col font-bold">
-//         <p>Call Us</p>
-//         <p>0582416753</p>
-//       </div>
-//     </div>
-//   </div>
-// );
+
