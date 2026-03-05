@@ -1,7 +1,7 @@
 export default function Location() {
   return (
     <div>
-      <p>Menu</p>
+      <p>location</p>
     </div>
   );
 }
