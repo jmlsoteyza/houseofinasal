@@ -28,10 +28,8 @@ export default function Navbar() {
           </li>
         </ul>
 
-        <div className="flex flex-col">
-          <p className="tracking-widest text-sm font-semibold text-right font-ui leading-[0.78]">
-            Call Us
-          </p>
+        <div className="flex flex-col cursor-pointer">
+          <p className="text-sm font-semibold text-right font-ui leading-[0.78]">CALL US</p>
           <p className="text-primary text-lg tracking-[0.2rem] font-normal font-heading">
             0545617393
           </p>
