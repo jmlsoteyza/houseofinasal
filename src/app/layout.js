@@ -30,11 +30,11 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${montserrat.variable} ${poetsenOne.variable} ${rubik.variable} antialiased`}
+      className={`${montserrat.variable} ${poetsenOne.variable} ${rubik.variable} antialiased scroll-smooth md:scroll-auto`}
     >
       <body>
         <Navbar />
-        <main className="pt-20">{children}</main>
+        <main className="pt-19">{children}</main>
         <Footer />
       </body>
     </html>
