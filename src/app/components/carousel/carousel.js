@@ -11,7 +11,7 @@ export default function Carousel() {
       className="w-full h-[660px]"
       modules={[Autoplay, EffectFade]}
       autoplay={{
-        delay: 4200,
+        delay: 3500,
         disableOnInteraction: false,
         waitForTransition: true // make sure animation finished before next slide
       }}
