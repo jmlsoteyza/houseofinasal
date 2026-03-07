@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
     >
       <body>
         <Navbar />
-        {/* pt - means, exact spacing between the navbar and the children (height) */}
+        {/* pt - means here is about exact spacing between the navbar and the children (height) */}
         <main className="pt-[4.625rem]">{children}</main>
         <Footer />
       </body>

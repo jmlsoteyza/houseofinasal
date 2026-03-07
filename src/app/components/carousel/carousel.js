@@ -13,7 +13,7 @@ export default function Carousel() {
       autoplay={{
         delay: 3500,
         disableOnInteraction: false,
-        waitForTransition: true // make sure animation finished before next slide
+        waitForTransition: true // make sure the animation is finished before the next slide
       }}
       loop
       effect="fade"
@@ -27,7 +27,7 @@ export default function Carousel() {
             fill
             className="object-cover"
             alt="house of inasal foods"
-            priority
+            priority // always in the first (image)
           />
         </div>
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent z-10" />
