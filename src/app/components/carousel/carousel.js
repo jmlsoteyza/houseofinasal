@@ -23,22 +23,19 @@ export default function Carousel() {
       >
         {['/images/carousel.png', '/images/carouseltwo.png', '/images/carousel3.png'].map(
           (src, i) => (
-            console.log(src, 'asdasd'),
-            (
-              <SwiperSlide key={i} className="relative overflow-hidden">
-                <div className="zoom-wrapper absolute inset-0">
-                  <Image
-                    src={src}
-                    fill
-                    className="object-cover"
-                    alt="house of inasal foods"
-                    priority={i === 0}
-                  />
-                </div>
+            <SwiperSlide key={i} className="relative overflow-hidden">
+              <div className="zoom-wrapper absolute inset-0">
+                <Image
+                  src={src}
+                  fill
+                  className="object-cover"
+                  alt="house of inasal foods"
+                  priority={i === 0}
+                />
+              </div>
 
-                <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/40 to-transparent" />
-              </SwiperSlide>
-            )
+              <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/40 to-transparent" />
+            </SwiperSlide>
           )
         )}
       </Swiper>
