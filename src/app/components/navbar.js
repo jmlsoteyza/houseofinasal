@@ -16,7 +16,7 @@ export default function Navbar() {
           />
         </Link>
 
-        <ul className="flex gap-12 text-[#000] mr-4 font-medium font-ui items-center text-[0.969rem]">
+        <ul className="flex gap-12 text-[#000] mr-4 font-medium font-ui items-center text-sm">
           <li>
             <Link href="/menu">MENU</Link>
           </li>

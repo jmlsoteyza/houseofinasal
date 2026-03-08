@@ -23,12 +23,12 @@ export default function Carousel() {
       >
         {['/images/carousel.png', '/images/carouseltwo.png', '/images/carousel3.png'].map(
           (src, i) => (
-            <SwiperSlide key={i} className="relative overflow-hidden">
+            <SwiperSlide key={i} className="relative overflow-hidden pointer-events-none">
               <div className="zoom-wrapper absolute inset-0">
                 <Image
                   src={src}
                   fill
-                  className="object-cover"
+                  className="object-cover pointer-events-none"
                   alt="house of inasal foods"
                   priority={i === 0}
                 />
@@ -41,9 +41,9 @@ export default function Carousel() {
       </Swiper>
 
       {/* SINGLE OVERLAY */}
-      <div className="w-full flex flex-col items-center font-heading absolute top-[50%] left-1/2 -translate-x-1/2 -translate-y-1/2 text-white z-20 text-center gap-2">
+      <div className="w-full flex flex-col items-center font-heading absolute top-[50%] left-1/2 -translate-x-1/2 -translate-y-1/2 text-white z-20 text-center">
         {/* text color option -> #FEF9E7, #FFFDF5, #EAECEF */}
-        <h1 className="text-8xl text-[#EAECEF] [text-shadow:0px_0px_30px_rgba(0,0,0,0.57)]">
+        <h1 className="text-[5.375rem] text-[#EAECEF] [text-shadow:0px_0px_30px_rgba(0,0,0,0.57)]">
           HOUSE OF INASAL
         </h1>
         <p className="text-4xl text-[#EAECEF] mt-2 [text-shadow:0px_0px_30pxpx_rgba(0,0,0,0.57)]">
