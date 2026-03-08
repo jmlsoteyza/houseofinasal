@@ -21,26 +21,28 @@ export default function Carousel() {
         speed={1200}
         allowTouchMove={false}
       >
-        {['/images/test.png', '/images/test1.png', '/images/test2.png'].map((src, i) => (
-          <SwiperSlide key={i} className="relative overflow-hidden">
-            <div className="zoom-wrapper absolute inset-0">
-              <Image
-                src={src}
-                fill
-                className="object-cover"
-                alt="house of inasal foods"
-                priority={i === 0}
-              />
-            </div>
+        {['/images/carousel.png', '/images/carousel2.png', '/images/carousel3.png'].map(
+          (src, i) => (
+            <SwiperSlide key={i} className="relative overflow-hidden">
+              <div className="zoom-wrapper absolute inset-0">
+                <Image
+                  src={src}
+                  fill
+                  className="object-cover"
+                  alt="house of inasal foods"
+                  priority={i === 0}
+                />
+              </div>
 
-            <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/30 to-transparent" />
-          </SwiperSlide>
-        ))}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/40 to-transparent" />
+            </SwiperSlide>
+          )
+        )}
       </Swiper>
 
       {/* SINGLE OVERLAY */}
-      <div className="w-full flex flex-col items-center font-heading absolute top-[45%] left-1/2 -translate-x-1/2 -translate-y-1/2 text-white z-20 text-center">
-        {/* text color options -> #FEF9E7, #FFFDF5, #EAECEF */}
+      <div className="w-full flex flex-col items-center font-heading absolute top-[45%] left-1/2 -translate-x-1/2 -translate-y-1/2 text-white z-20 text-center gap-2">
+        {/* text color option -> #FEF9E7, #FFFDF5, #EAECEF */}
         <h1 className="text-8xl text-[#EAECEF] [text-shadow:0px_0px_30px_rgba(0,0,0,0.57)]">
           HOUSE OF INASAL
         </h1>
