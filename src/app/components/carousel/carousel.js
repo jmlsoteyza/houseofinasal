@@ -33,17 +33,20 @@ export default function Carousel() {
               />
             </div>
 
-            <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/30 to-transparent" />
           </SwiperSlide>
         ))}
       </Swiper>
 
       {/* SINGLE OVERLAY */}
-      <div className="pointer-events-none flex flex-col items-center font-heading absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white z-20 text-center">
-        <h1 className="text-8xl font-bold [text-shadow:0px_0px_50px_rgba(0,0,0,0.57)]">
-          House of Inasal
+      <div className="w-full flex flex-col items-center font-heading absolute top-[45%] left-1/2 -translate-x-1/2 -translate-y-1/2 text-white z-20 text-center">
+        {/* text color options -> #FEF9E7, #FFFDF5, #EAECEF */}
+        <h1 className="text-8xl text-[#EAECEF] [text-shadow:0px_0px_30px_rgba(0,0,0,0.57)]">
+          HOUSE OF INASAL
         </h1>
-        <p className="text-4xl mt-2">Authentic Filipino Grill</p>
+        <p className="text-4xl text-[#EAECEF] mt-2 [text-shadow:0px_0px_30pxpx_rgba(0,0,0,0.57)]">
+          YOUR NEIGHBORHOOD GRILL
+        </p>
       </div>
     </div>
   );
