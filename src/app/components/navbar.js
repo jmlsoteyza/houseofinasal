@@ -17,10 +17,10 @@ export default function Navbar() {
 
         <ul className="flex gap-12 text-[#000] font-medium font-ui items-center text-sm">
           <li>
-            <Link href="/menu">MENU</Link>
+            <Link href="/">HOME</Link>
           </li>
           <li>
-            <Link href="/">HOME</Link>
+            <Link href="/menu">MENU</Link>
           </li>
           <li>
             <Link href="/location">LOCATION</Link>

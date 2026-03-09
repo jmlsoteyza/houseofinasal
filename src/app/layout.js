@@ -30,9 +30,9 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${montserrat.variable} ${poetsenOne.variable} ${rubik.variable} antialiased scroll-smooth md:scroll-auto`}
+      className={`${montserrat.variable} ${poetsenOne.variable} ${rubik.variable} scroll-smooth md:scroll-auto`}
     >
-      <body>
+      <body className="antialiased">
         <Navbar />
         {/* py - means here is about exact spacing between the navbar and the children (height) */}
         <main className="py-2">{children}</main>
