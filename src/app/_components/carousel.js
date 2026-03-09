@@ -6,6 +6,13 @@ import 'swiper/css';
 import Image from 'next/image';
 
 export default function Carousel() {
+  // image sources for the carousel.
+  const carouselImages = [
+    '/images/carousel.png',
+    '/images/carouseltwo.png',
+    '/images/carousel3.png'
+  ];
+
   return (
     <div className="relative w-full mt-16.5 h-[570px]">
       <Swiper
@@ -21,23 +28,21 @@ export default function Carousel() {
         speed={1200}
         allowTouchMove={false}
       >
-        {['/images/carousel.png', '/images/carouseltwo.png', '/images/carousel3.png'].map(
-          (src, i) => (
-            <SwiperSlide key={i} className="relative overflow-hidden pointer-events-none">
-              <div className="zoom-wrapper absolute inset-0">
-                <Image
-                  src={src}
-                  fill
-                  className="object-cover pointer-events-none"
-                  alt="house of inasal foods"
-                  priority={i === 0}
-                />
-              </div>
+        {carouselImages.map((src, i) => (
+          <SwiperSlide key={i} className="relative overflow-hidden pointer-events-none">
+            <div className="zoom-wrapper absolute inset-0">
+              <Image
+                src={src}
+                fill
+                className="object-cover pointer-events-none"
+                alt="house of inasal foods"
+                priority={i === 0}
+              />
+            </div>
 
-              <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/40 to-transparent" />
-            </SwiperSlide>
-          )
-        )}
+            <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/40 to-transparent" />
+          </SwiperSlide>
+        ))}
       </Swiper>
 
       {/* SINGLE OVERLAY */}
