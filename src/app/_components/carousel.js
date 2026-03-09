@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 export default function Carousel() {
   return (
-    <div className="relative w-full mt-7 h-[660px]">
+    <div className="relative w-full mt-16.5 h-[570px]">
       <Swiper
         className="w-full h-full"
         modules={[Autoplay, EffectFade]}
@@ -41,7 +41,7 @@ export default function Carousel() {
       </Swiper>
 
       {/* SINGLE OVERLAY */}
-      <div className="w-full flex flex-col items-center font-heading absolute top-[50%] left-1/2 -translate-x-1/2 -translate-y-1/2 text-white z-20 text-center">
+      <div className="w-full flex flex-col items-center font-heading absolute top-[43%] left-1/2 -translate-x-1/2 -translate-y-1/2 text-white z-20 text-center">
         {/* text color option -> #FEF9E7, #FFFDF5, #EAECEF */}
         <h1 className="text-[5.375rem] text-[#EAECEF] [text-shadow:0px_0px_30px_rgba(0,0,0,0.57)]">
           HOUSE OF INASAL
