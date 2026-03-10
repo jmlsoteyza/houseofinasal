@@ -15,8 +15,6 @@ export default function MiniCarousel() {
     '/images/mini-carousel4.png'
   ];
 
-  console.log(miniCarouselImage);
-
   return (
     <>
       <div className="max-w-[1250px] w-full mt-20 mx-auto px-6">
@@ -29,11 +27,11 @@ export default function MiniCarousel() {
           </p>
         </div>
         <div className="flex flex-row gap-12">
-          {/* <Image src="/ai.png" alt="food" width={260} height={260} /> */}
-          <Image src="/ai2.png" alt="food" width={260} height={260} />
-          <Image src="/ai3.png" alt="food" width={260} height={260} />
-          <Image src="/ai4.png" alt="food" width={260} height={260} />
-          <Image src="/ai5.png" alt="food" width={260} height={260} />
+          <Image src="/images/1.png" alt="food" width={225} height={225} />
+          <Image src="/images/2.png" alt="food" width={225} height={225} />
+          <Image src="/images/3.png" alt="food" width={225} height={225} />
+          <Image src="/images/4.png" alt="food" width={225} height={225} />
+          <Image src="/images/5.png" alt="food" width={225} height={225} />
         </div>
       </div>
     </>
