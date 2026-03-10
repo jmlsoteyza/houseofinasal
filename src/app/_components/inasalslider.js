@@ -9,9 +9,9 @@ import Image from 'next/image';
 
 export default function InasalSlider() {
   const miniCarouselImage = [
-    { src: '/images/1.png', text: 'kalabasa', alt: 'pecho' },
-    { src: '/images/2.png', text: 'kalabasa', alt: 'pecho' },
-    { src: '/images/3.png', text: 'kalabasa', alt: 'pecho' },
+    { src: '/images/1.png', text: 'Pecho', alt: 'pecho' },
+    { src: '/images/2.png', text: 'Sisig', alt: 'pecho' },
+    { src: '/images/3.png', text: 'halo-halo', alt: 'pecho' },
     { src: '/images/4.png', text: 'kalabasa', alt: 'pecho' },
     { src: '/images/5.png', text: 'kalabasa', alt: 'pecho' }
   ];
@@ -46,9 +46,11 @@ export default function InasalSlider() {
                     height={225}
                   />
                 </div>
-                <p className="mt-2 text-center absolute top-0 bottom-0 right-0 left-0 text-red-500">
-                  {item.text}
-                </p>
+                <div className="absolute bottom-1.5 left-1/2 -translate-x-1/2">
+                  <p className="inline-block bg-black/25 text-xs px-1 py-1 rounded text-white font-semibold text-sm uppercase text-center">
+                    {item.text}
+                  </p>
+                </div>
               </div>
             </SwiperSlide>
           ))}
