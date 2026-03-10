@@ -7,6 +7,8 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import Image from 'next/image';
 
+// Note: text styles and arrow (not sure about the styles yet.)
+
 export default function InasalSlider() {
   const miniCarouselImage = [
     { src: '/images/1.png', text: 'Pecho', alt: 'pecho' },
@@ -46,7 +48,7 @@ export default function InasalSlider() {
                     height={225}
                   />
                 </div>
-                <div className="absolute bottom-1.5 left-1/2 -translate-x-1/2">
+                <div className="absolute bottom-1.5 left-1/2 -translate-x-1/2 rounded-lg">
                   <p className="inline-block bg-black/25 text-xs px-1 py-1 rounded text-white font-semibold text-sm uppercase text-center">
                     {item.text}
                   </p>
