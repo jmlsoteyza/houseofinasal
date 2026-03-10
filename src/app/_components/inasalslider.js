@@ -12,8 +12,8 @@ import Image from 'next/image';
 export default function InasalSlider() {
   const miniCarouselImage = [
     { src: '/images/1.png', text: 'Pecho', alt: 'pecho' },
-    { src: '/images/2.png', text: 'Sisig', alt: 'pecho' },
-    { src: '/images/3.png', text: 'halo-halo', alt: 'pecho' },
+    { src: '/images/2.png', text: 'Sisig', alt: 'sisig' },
+    { src: '/images/3.png', text: 'halo-halo', alt: 'halohalo' },
     { src: '/images/4.png', text: 'kalabasa', alt: 'pecho' },
     { src: '/images/5.png', text: 'kalabasa', alt: 'pecho' }
   ];
@@ -49,7 +49,7 @@ export default function InasalSlider() {
                   />
                 </div>
                 <div className="absolute bottom-1.5 left-1/2 -translate-x-1/2 rounded-lg">
-                  <p className="inline-block bg-black/25 text-xs px-1 py-1 rounded text-white font-semibold text-sm uppercase text-center">
+                  <p className="inline-block bg-black/20 text-xs px-1 py-1 rounded text-white font-semibold text-sm uppercase text-center">
                     {item.text}
                   </p>
                 </div>
