@@ -17,7 +17,7 @@ export default function InasalSlider() {
   ];
 
   return (
-    <div className="max-w-[1150px] w-full mt-20 mx-auto px-6">
+    <div className="max-w-[1150px] w-full mt-20 mx-auto">
       {/* Section Header */}
       <div>
         <p className="text-sm tracking-widest font-ui uppercase text-gray-500">Our Best Seller</p>
