@@ -7,7 +7,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import Image from 'next/image';
 
-export default function MiniCarousel() {
+export default function InasalSlider() {
   const miniCarouselImage = [
     { src: '/images/1.png', text: 'kalabasa', alt: 'pecho' },
     { src: '/images/2.png', text: 'kalabasa', alt: 'pecho' },
@@ -36,7 +36,7 @@ export default function MiniCarousel() {
         >
           {miniCarouselImage.map((item, index) => (
             <SwiperSlide key={index}>
-              <div className="flex flex-col items-center w-[225px]">
+              <div className="flex flex-col items-center w-[225px] relative">
                 <div className="w-[225px] h-[225px] overflow-hidden">
                   <Image
                     className="rounded-xl object-cover"
@@ -46,7 +46,9 @@ export default function MiniCarousel() {
                     height={225}
                   />
                 </div>
-                <p className="mt-2 text-center">{item.text}</p>
+                <p className="mt-2 text-center absolute top-0 bottom-0 right-0 left-0 text-red-500">
+                  {item.text}
+                </p>
               </div>
             </SwiperSlide>
           ))}

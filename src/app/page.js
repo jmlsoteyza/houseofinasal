@@ -1,11 +1,11 @@
 import Carousel from './_components/carousel';
-import MiniCarousel from './_components/mini-carousel';
+import InasalSlider from './_components/inasalslider';
 
 export default function Home() {
   return (
     <div className="min-h-screen ">
       <Carousel />
-      <MiniCarousel />
+      <InasalSlider />
     </div>
   );
 }
