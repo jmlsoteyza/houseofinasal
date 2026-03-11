@@ -19,7 +19,8 @@ export default function InasalSlider() {
   ];
 
   return (
-    <div className="max-w-[1150px] w-full mt-20 mx-auto">
+    // Exception max-width because of the swiper design.
+    <div className="max-w-[1205px] w-full mt-20 mx-auto">
       {/* Section Header */}
       <div>
         <p className="text-sm tracking-widest font-ui uppercase text-gray-500">Our Best Seller</p>
@@ -27,7 +28,7 @@ export default function InasalSlider() {
       </div>
 
       {/* Carousel */}
-      <div className="w-full mt-4 overflow-visible">
+      <div className="w-full mt-4 px-2 overflow-visible">
         <Swiper
           modules={[Navigation]}
           spaceBetween={80}
