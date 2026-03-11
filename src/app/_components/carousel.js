@@ -1,4 +1,5 @@
 'use client';
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, EffectFade } from 'swiper/modules';
 import 'swiper/css/effect-fade';
@@ -7,7 +8,7 @@ import Image from 'next/image';
 
 export default function Carousel() {
   // image sources for the carousel.
-  const carouselImages = [
+  const carouselimage = [
     '/images/carousel.png',
     '/images/carouseltwo.png',
     '/images/carousel3.png'
@@ -28,7 +29,7 @@ export default function Carousel() {
         speed={1200}
         allowTouchMove={false}
       >
-        {carouselImages.map((src, i) => (
+        {carouselimage.map((src, i) => (
           <SwiperSlide key={i} className="relative overflow-hidden pointer-events-none">
             <div className="zoom-wrapper absolute inset-0">
               <Image

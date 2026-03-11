@@ -2,7 +2,6 @@
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
-
 import 'swiper/css';
 import 'swiper/css/navigation';
 import Image from 'next/image';
@@ -10,7 +9,7 @@ import Image from 'next/image';
 // Note: text styles and arrow (not sure about the styles yet.)
 
 export default function InasalSlider() {
-  const miniCarouselImage = [
+  const minicarouselimage = [
     { src: '/images/1.png', text: 'Pecho', alt: 'pecho' },
     { src: '/images/2.png', text: 'Sisig', alt: 'sisig' },
     { src: '/images/3.png', text: 'halo-halo', alt: 'halohalo' },
@@ -37,7 +36,7 @@ export default function InasalSlider() {
           navigation
           loop
         >
-          {miniCarouselImage.map((item, index) => (
+          {minicarouselimage.map((item, index) => (
             <SwiperSlide key={index}>
               <div className="flex flex-col items-center w-[225px] relative">
                 <div className="w-[225px] h-[225px] overflow-hidden">

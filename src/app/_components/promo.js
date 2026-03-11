@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 export default function Promo() {
-  const promoImages = [
+  const promoimage = [
     { src: '/images/promo1.png', alt: 'promo1' },
     { src: '/images/promo2.png', alt: 'promo1' },
     { src: '/images/promo3.png', alt: 'promo1' }
@@ -15,7 +15,7 @@ export default function Promo() {
           <p>Test</p>
         </div>
         <div className="flex flex justify-between gap-12">
-          {promoImages.map((item, index) => (
+          {promoimage.map((item, index) => (
             <div key={index} className="overflow-hidden rounded-xl w-[368px]">
               <Image
                 className="object-cover"
