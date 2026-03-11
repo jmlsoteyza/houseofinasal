@@ -9,19 +9,32 @@ export default function Promo() {
 
   return (
     <div className="mt-18 pt-1 bg-green-800 w-full">
-      <div className="py-10 max-w-[1250px] px-6 w-full mx-auto">
-        <div>
-          <h1 className="text-primary font-heading text-3xl">Promo & Deals</h1>
-          <p>Test</p>
+      <div className="py-12 max-w-[1250px] px-4 w-full mx-auto">
+        <div className="inline-flex items-center justify-between w-full mb-2">
+          <h1 className="text-[#FFFD34] font-heading text-heading">Promo & Deals</h1>
+          <span className="flex items-center gap-1.5 cursor-pointer">
+            <p className="text-white font-ui font-semibold text-md">EXPLORE</p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth="3.5"
+              stroke="white"
+              className="size-4"
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+            </svg>
+          </span>
         </div>
+        <p className="text-white font-ui mb-4">These deals and discounts are waiting for you!</p>
         <div className="flex flex justify-between gap-12">
           {promoimage.map((item, index) => (
-            <div key={index} className="overflow-hidden rounded-xl w-[368px]">
+            <div key={index} className="overflow-hidden rounded-lg w-[368px] h-[606px]">
               <Image
                 className="object-cover"
                 src={item.src}
-                width={400}
-                height={400}
+                width={368}
+                height={606}
                 alt={item.alt}
               />
             </div>
