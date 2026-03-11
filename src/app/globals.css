@@ -29,6 +29,10 @@
 
   --color-muted: var(--muted);
   --color-border: var(--border);
+
+  /* font sizes */
+  --text-heading: 1.75rem;
+  --text-heading--line-height: 2.25rem;
 }
 
 body {
@@ -36,7 +40,6 @@ body {
   color: var(--foreground);
   font-family: var(--font-primary), system-ui, sans-serif;
 }
-
 
 /* For carousel styles */
 .zoom-wrapper {
