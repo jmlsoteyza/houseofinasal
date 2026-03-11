@@ -8,8 +8,8 @@ export default function Promo() {
   ];
 
   return (
-    <div className="mt-18 pt-1 bg-green-800 w-full">
-      <div className="py-12 max-w-[1250px] px-4 w-full mx-auto">
+    <div className="mt-18 bg-green-800 w-full">
+      <div className="py-12 max-w-[1250px] px-6 w-full mx-auto">
         <div className="inline-flex items-center justify-between w-full mb-2">
           <h1 className="text-[#FFFD34] font-heading text-heading">Promo & Deals</h1>
           <span className="flex items-center gap-1.5 cursor-pointer">
@@ -26,7 +26,7 @@ export default function Promo() {
             </svg>
           </span>
         </div>
-        <p className="text-white font-ui mb-4">These deals and discounts are waiting for you!</p>
+        <p className="text-white font-ui mb-5">Treat yourself to our delicious promos and meals!</p>
         <div className="flex flex justify-between gap-12">
           {promoimage.map((item, index) => (
             <div key={index} className="overflow-hidden rounded-lg w-[368px] h-[606px]">
