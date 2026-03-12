@@ -1,3 +1,4 @@
+import AboutUs from './_components/about-us';
 import Carousel from './_components/carousel';
 import InasalSlider from './_components/inasalslider';
 import Promo from './_components/promo';
@@ -8,6 +9,7 @@ export default function Home() {
       <Carousel />
       <InasalSlider />
       <Promo />
+      <AboutUs />
     </div>
   );
 }
