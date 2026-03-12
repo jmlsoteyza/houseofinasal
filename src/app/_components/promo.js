@@ -8,8 +8,8 @@ export default function Promo() {
   ];
 
   return (
-    <div className="mt-18 bg-green-800 w-full">
-      <div className="py-12 max-w-[1250px] px-6 w-full mx-auto">
+    <div className="bg-green-800 w-full py-16">
+      <div className=" px-6 max-w-[1250px] w-full mx-auto">
         <div className="inline-flex items-center justify-between w-full mb-2">
           <h1 className="text-[#FFFD34] font-heading text-heading">Promo & Deals</h1>
           <span className="flex items-center gap-1.5 cursor-pointer">

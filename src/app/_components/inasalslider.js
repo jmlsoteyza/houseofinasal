@@ -19,7 +19,7 @@ export default function InasalSlider() {
 
   return (
     // Exception max-width because of the swiper design.
-    <div className="max-w-[1205px] w-full mt-20 mx-auto">
+    <div className="max-w-[1205px] w-full my-18 mx-auto">
       {/* Section Header */}
       <div>
         <p className="text-sm tracking-widest font-ui uppercase text-gray-500">Our Best Seller</p>
