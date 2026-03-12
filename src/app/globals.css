@@ -6,6 +6,7 @@
 
   /* brand colors */
   --primary: #27ae60;
+  --primary-heading: #238b45;
   --primary-foreground: #ffffff;
 
   --primary-dark: #0e2f1c;
@@ -22,6 +23,7 @@
 
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-primary-heading: var(--primary-heading);
 
   --color-primary: var(--primary);
   --color-primary-foreground: var(--primary-foreground);

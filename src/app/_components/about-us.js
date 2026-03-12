@@ -3,7 +3,7 @@ export default function AboutUs() {
     <>
       <div>
         <div className="max-w-[1250px] w-full mt-20 mx-auto">
-          <p className="text-sm tracking-widest font-ui uppercase text-gray-500">About Us</p>
+          <p className="text-heading text-primary-heading font-heading">About Us</p>
         </div>
       </div>
     </>
