@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function AboutUs() {
   return (
-    <div className="py-18 bg-green-100">
+    <div className="py-16 bg-green-100">
       <div className="px-6 max-w-[1250px] w-full mx-auto">
         <p className="text-heading text-primary-heading font-heading pb-7">About Us</p>
         <div className="flex gap-12 w-full">
