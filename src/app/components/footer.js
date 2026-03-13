@@ -12,7 +12,7 @@ const quickLinks = [
 const socialLinks = [
   {
     label: 'Facebook',
-    href: 'https://facebook.com',
+    href: 'https://www.facebook.com/houseofinasaluae/',
     icon: (
       <svg className="w-3.5 h-3.5" fill="#000" viewBox="0 0 24 24">
         <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
@@ -21,7 +21,7 @@ const socialLinks = [
   },
   {
     label: 'Instagram',
-    href: 'https://instagram.com',
+    href: 'https://www.instagram.com/house_of_inasal/',
     icon: (
       <svg className="w-3.5 h-3.5" fill="#000" viewBox="0 0 24 24">
         <rect
@@ -51,7 +51,7 @@ const socialLinks = [
   },
   {
     label: 'TikTok',
-    href: 'https://tiktok.com',
+    href: 'https://www.tiktok.com/@house_of_inasal',
     icon: (
       <svg className="w-3.5 h-3.5" fill="#000" viewBox="0 0 24 24">
         <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.18 8.18 0 004.78 1.52V6.75a4.85 4.85 0 01-1.01-.06z" />
