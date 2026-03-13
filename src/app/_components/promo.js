@@ -8,7 +8,7 @@ export default function Promo() {
   ];
 
   return (
-    <div className="bg-green-800 w-full py-16">
+    <div className="bg-[#1b7a40] w-full py-16">
       <div className=" px-6 max-w-[1250px] w-full mx-auto">
         <div className="inline-flex items-center justify-between w-full mb-2">
           <h1 className="text-[#FFFD34] font-heading text-heading">Promo & Deals</h1>
