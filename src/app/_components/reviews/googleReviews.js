@@ -52,7 +52,7 @@ export default function GoogleReviews() {
                   </svg>
                 ))}
               </div>
-              <span className="text-sm text-gray-500">{reviews.length} reviews</span>
+              <span className="text-sm text-gray-500">11 reviews</span>
             </div>
           </div>
         </div>

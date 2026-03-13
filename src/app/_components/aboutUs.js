@@ -17,26 +17,27 @@ export default function AboutUs() {
           </div>
           <div className="flex-1 font-ui py-4 px-4 w-min font-light w-full">
             <p className="mb-6">
-              Mang Inasal is the Philippines’ Grill Expert, loved for its Ihaw-Sarap (deliciously
-              grilled) meals and Unli-Saya (unlimited fun) dining experience.
+              House of Inasal is your local Grill Expert, loved for its Ihaw-Sarap (deliciously
+              grilled) meals and Unli-Saya (unlimited fun) dining experience that brings people
+              together.
             </p>
             <p className="mb-6">
-              Since 2003, we’ve welcomed locals and visitors from around the world. While the look
-              of our stores has evolved, our heart remains the same: great-tasting grilled food,
-              warm service, and unforgettable moments.
+              Since we opened our doors, we've welcomed locals and visitors from all walks of life.
+              While the look of our store has evolved, our heart remains the same: great-tasting
+              grilled food, warm service, and unforgettable moments.
             </p>
             <p className="mb-6">
               Our menu features bestsellers like Chicken Inasal, Pork BBQ, Extra Creamy Halo-Halo,
               and Palabok, all flavor-packed and prepared fresh every day. These favorites are
-              enjoyed by millions nationwide.
+              enjoyed by customers who keep coming back for more.
             </p>
             <p className="mb-6">
-              With over 570 stores across the Philippines, Mang Inasal makes it easy to enjoy your
-              favorites through dine-in, takeout, drive-thru, or online delivery.
+              At House of Inasal, we make it easy to enjoy your favorites through dine-in, takeout,
+              or online delivery — however you like it, we've got you covered.
             </p>
             <p className="mb-6">
-              Craving delicious grilled meals? Order your Mang Inasal favorites today and stay
-              updated on our newest products, exclusive promos, and exciting announcements.
+              Craving delicious grilled meals? Order your House of Inasal favorites today and stay
+              updated on our newest products, exclusive promos, and exciting announcements!
             </p>
             <div className="pt-2 ">
               <button className="py-3 px-6 bg-[#2d9751] text-white rounded-sm flex items-center gap-2 cursor-pointer hover:bg-[#06481F] transition-colors duration-500">
