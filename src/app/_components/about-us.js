@@ -2,20 +2,20 @@ import Image from 'next/image';
 
 export default function AboutUs() {
   return (
-    <div className="py-16 bg-green-100">
-      <div className="px-6 max-w-[1250px] w-full mx-auto">
+    <div className="py-16 bg-[#fff]">
+      <div className="px-2 max-w-[1250px] w-full mx-auto">
         <p className="text-heading text-primary-heading font-heading pb-7">About Us</p>
-        <div className="flex gap-12 w-full">
-          <div className="overflow-hidden rounded-lg shrink-0">
+        <div className="flex gap-8 w-full max-[1200px]:flex-col">
+          <div className="overflow-hidden rounded-sm shrink-0">
             <Image
-              src="/images/aboutusimage.png"
-              width={480}
-              height={480}
+              src="/images/abt.png"
+              width={575}
+              height={400}
               alt="not yet"
               className="object-cover"
             />
           </div>
-          <div className="flex-1 font-primary py-4 px-8 max-w-[65ch] text-medium text-gray-700">
+          <div className="flex-1 font-ui py-4 px-4 w-min font-light w-full">
             <p className="mb-6">
               Mang Inasal is the Philippines’ Grill Expert, loved for its Ihaw-Sarap (deliciously
               grilled) meals and Unli-Saya (unlimited fun) dining experience.
@@ -38,7 +38,25 @@ export default function AboutUs() {
               Craving delicious grilled meals? Order your Mang Inasal favorites today and stay
               updated on our newest products, exclusive promos, and exciting announcements.
             </p>
-            <button>Test</button>
+            <div className="pt-2 ">
+              <button className="py-3 px-6 bg-[#2d9751] text-white rounded-sm flex items-center gap-2 cursor-pointer hover:bg-[#06481F] transition-colors duration-500">
+                <span className="text-sm font-ui font-medium">Learn More</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="3.5"
+                  stroke="white"
+                  className="size-4"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                  />
+                </svg>
+              </button>
+            </div>
           </div>
         </div>
       </div>
