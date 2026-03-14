@@ -15,7 +15,7 @@ export default function Carousel() {
   ];
 
   return (
-    <div className="relative w-full mt-16.5 h-[570px]">
+    <div className="relative w-full mt-6 h-[570px]">
       <Swiper
         className="w-full h-full"
         modules={[Autoplay, EffectFade]}
