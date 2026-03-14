@@ -79,7 +79,7 @@ export default function Footer() {
   return (
     <footer className="bg-[#1b7a40] text-gray-300">
       {/* Main footer content */}
-      <div className="max-w-[1250px] mx-auto px-6 py-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+      <div className="max-w-[1250px] mx-auto px-6 py-9 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
         {/* Branding */}
         <div className="flex flex-col gap-4">
           <Link href="/" className="cursor-pointer">
@@ -187,7 +187,7 @@ export default function Footer() {
 
       {/* Bottom bar */}
       <div className="border-t border-white w-full mx-auto">
-        <div className="max-w-[1250px] mx-auto px-6 pt-10 pb-6 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-white">
+        <div className="max-w-[1250px] mx-auto px-6 pt-8 pb-4 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-white">
           <span className="font-semibold">© 2025 House of Inasal. All rights reserved.</span>
           <div className="flex gap-4 font-semibold">
             <Link href="/privacy-policy" className="hover:text-yellow-400 transition-colors">
