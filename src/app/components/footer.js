@@ -82,13 +82,13 @@ export default function Footer() {
       <div className="max-w-[1250px] mx-auto px-6 py-9 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
         {/* Branding */}
         <div className="flex flex-col gap-4">
-          <Link href="/" className="cursor-pointer">
+          <Link href="/" className="max-w-[165px]">
             <Image
               src="/images/logo.svg"
               alt="hof-logo"
               width={165}
               height={59}
-              className="rounded-sm"
+              className="rounded-sm cursor-pointer"
             />
           </Link>
           {/* Social icons */}

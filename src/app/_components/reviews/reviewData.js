@@ -32,7 +32,7 @@ export const reviews = [
     rating: 4,
     text: 'House of Inasal has an innovative take on Filipino food. They have their own version of Tapsilog and HaloHalo. We’ve tasted a lot of inasal and theirs is could’ve been improved to beat Chickboy. Recommended to try their Inasal duo combo as its huge portion. Till next visit☺️',
     date: '2 months ago',
-    avatar: '<MC>'
+    avatar: 'MC'
   },
   {
     name: 'Kim Avila',
