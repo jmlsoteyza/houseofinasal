@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-const quickLinks = [
+const navigate = [
   { label: 'Home', href: '/' },
   { label: 'Menu', href: '/menu' },
   { label: 'Location', href: '/location' },
@@ -108,13 +108,11 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Quick Links */}
+        {/* Navigate */}
         <div>
-          <h4 className="text-white font-bold text-sm uppercase tracking-widest mb-5">
-            Quick Links
-          </h4>
+          <h4 className="text-white font-bold text-sm uppercase tracking-widest mb-5">Navigate</h4>
           <ul className="flex flex-col gap-3">
-            {quickLinks.map((link) => (
+            {navigate.map((link) => (
               <li key={link.label}>
                 <Link
                   href={link.href}
