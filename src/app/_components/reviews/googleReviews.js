@@ -8,7 +8,7 @@ export default function GoogleReviews() {
 
   return (
     <section className="py-14 px-4 bg-gray-50">
-      <div className="max-w-[1250px] mx-auto px-6">
+      <div className="max-w-[78.125rem] mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-2 bg-white border border-gray-200 rounded-full px-4 py-1.5 mb-4 shadow-sm">

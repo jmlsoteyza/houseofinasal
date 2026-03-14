@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function AboutUs() {
   return (
     <div className="py-16 bg-[#fff]">
-      <div className="px-2 max-w-[1250px] w-full mx-auto">
+      <div className="px-2 max-w-[78.125rem] w-full mx-auto">
         <p className="text-heading text-primary-heading font-heading pb-7">About Us</p>
         <div className="flex gap-8 w-full max-[1200px]:flex-col">
           <div className="overflow-hidden rounded-sm shrink-0">

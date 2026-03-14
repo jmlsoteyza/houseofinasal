@@ -79,7 +79,7 @@ export default function Footer() {
   return (
     <footer className="bg-[#1b7a40] text-gray-300">
       {/* Main footer content */}
-      <div className="max-w-[1250px] mx-auto px-6 py-9 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+      <div className="max-w-[78.125rem] mx-auto px-6 py-9 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
         {/* Branding */}
         <div className="flex flex-col gap-4">
           <Link href="/" className="max-w-[165px]">
