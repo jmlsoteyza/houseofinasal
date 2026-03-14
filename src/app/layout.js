@@ -35,7 +35,7 @@ export default function RootLayout({ children }) {
       <body className="antialiased">
         <Navbar />
         {/* py - means here is about exact spacing between the navbar and the children (height) */}
-        <main className="py-2">{children}</main>
+        <main className="pt-2">{children}</main>
         <Footer />
       </body>
     </html>
