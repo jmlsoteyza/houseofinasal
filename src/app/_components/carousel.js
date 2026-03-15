@@ -7,48 +7,52 @@ import 'swiper/css';
 import Image from 'next/image';
 
 export default function Carousel() {
-  // image sources for the carousel.
   const carouselimage = [
-    '/images/carousel.png',
-    '/images/carouseltwo.png',
-    '/images/carousel3.png'
+    {
+      src: '/images/carousel.png',
+      alt: 'House of Inasal – grilled Filipino meals served fresh daily'
+    },
+    {
+      src: '/images/carouseltwo.png',
+      alt: 'House of Inasal – Chicken Inasal and Pork BBQ bestsellers'
+    },
+    {
+      src: '/images/carousel3.png',
+      alt: 'House of Inasal – dine-in, takeout, and delivery available'
+    }
   ];
 
   return (
-    <div className="relative w-full mt-6 h-[570px]">
+    <section
+      aria-label="House of Inasal promotional carousel"
+      className="relative w-full mt-6 h-[570px]"
+    >
       <Swiper
         className="w-full h-full"
         modules={[Autoplay, EffectFade]}
-        autoplay={{
-          delay: 3500,
-          disableOnInteraction: false,
-          waitForTransition: true
-        }}
+        autoplay={{ delay: 3500, disableOnInteraction: false, waitForTransition: true }}
         loop
         effect="fade"
         speed={1200}
         allowTouchMove={false}
       >
-        {carouselimage.map((src, i) => (
+        {carouselimage.map((item, i) => (
           <SwiperSlide key={i} className="relative overflow-hidden pointer-events-none">
             <div className="zoom-wrapper absolute inset-0">
               <Image
-                src={src}
+                src={item.src}
                 fill
                 className="object-cover pointer-events-none"
-                alt="house of inasal foods"
+                alt={item.alt}
                 priority={i === 0}
               />
             </div>
-
             <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/40 to-transparent" />
           </SwiperSlide>
         ))}
       </Swiper>
 
-      {/* SINGLE OVERLAY */}
       <div className="w-full flex flex-col items-center font-heading absolute top-[43%] left-1/2 -translate-x-1/2 -translate-y-1/2 text-white z-20 text-center">
-        {/* text color option -> #FEF9E7, #FFFDF5, #EAECEF */}
         <h1 className="text-[5.375rem] text-[#EAECEF] [text-shadow:0px_0px_30px_rgba(0,0,0,0.57)]">
           HOUSE OF INASAL
         </h1>
@@ -56,6 +60,6 @@ export default function Carousel() {
           YOUR NEIGHBORHOOD GRILL
         </p>
       </div>
-    </div>
+    </section>
   );
 }
