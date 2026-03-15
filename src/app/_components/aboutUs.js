@@ -10,7 +10,6 @@ export default function AboutUs() {
 
         <div className="flex gap-8 w-full max-[1200px]:flex-col">
           <div className="overflow-hidden rounded-sm shrink-0">
-            {/* ✅ SEO: Descriptive alt text for the image */}
             <Image
               src="/images/abt.png"
               width={575}

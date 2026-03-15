@@ -25,7 +25,7 @@ export default function Carousel() {
   return (
     <section
       aria-label="House of Inasal promotional carousel"
-      className="relative w-full mt-6 h-[570px]"
+      className="relative w-full h-[570px]"
     >
       <Swiper
         className="w-full h-full"
