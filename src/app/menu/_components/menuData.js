@@ -68,7 +68,31 @@ export const menu = [
 
   // Sisig
   {
-    name: 'Sisig',
+    name: 'Beef Sisig',
+    price: 22,
+    image: 'none yet',
+    tabs: ['Full Menu', 'Sisig'],
+    label: '',
+    description: 'Choice of beef, chicken, bangus, or tofu'
+  },
+  {
+    name: 'Chicken Sisig',
+    price: 22,
+    image: 'none yet',
+    tabs: ['Full Menu', 'Sisig'],
+    label: '',
+    description: 'Choice of beef, chicken, bangus, or tofu'
+  },
+  {
+    name: 'Bangus Sisig',
+    price: 22,
+    image: 'none yet',
+    tabs: ['Full Menu', 'Sisig'],
+    label: '',
+    description: 'Choice of beef, chicken, bangus, or tofu'
+  },
+  {
+    name: 'Tofu Sisig',
     price: 22,
     image: 'none yet',
     tabs: ['Full Menu', 'Sisig'],
