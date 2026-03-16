@@ -11,11 +11,11 @@ export default function Menu() {
   const filtered = menu.filter((item) => item.tabs.includes(activeTab));
 
   return (
-    <section className="max-w-[1250px] w-full min-h-screen mx-auto flex flex-col py-10">
+    <section className="max-w-[1250px] w-full min-h-screen mx-auto flex flex-col py-10 px-6">
       <p className="text-2xl font-medium px-6 py-4">Our Menu</p>
       <div className="flex w-full">
         <SideBar tabs={tabs} activeTab={activeTab} onTabChange={setActiveTab} />
-        <div className="flex-1 grid grid-cols-3 gap-4 p-6">
+        <div className="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-6 gap-6 auto-rows-[400px]">
           {filtered.map((item) => (
             <MenuCard key={item.name} item={item} />
           ))}

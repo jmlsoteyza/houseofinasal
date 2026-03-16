@@ -2,12 +2,15 @@ export default function MenuCard({ item }) {
   const { name, price, label, description, image } = item;
 
   return (
-    <div className="border rounded-lg overflow-hidden self-start h-[400px]">
-      <div className="aspect-[4/3] bg-gray-100">
-        {image !== 'none yet' && (
+    <div className="flex flex-col shadow-md rounded-lg p-4 overflow-hidden font-ui">
+      {image !== 'none yet' ? (
+        <div className="aspect-[4/3] bg-gray-100">
           <img src={image} alt={name} className="w-full h-full object-cover" />
-        )}
-      </div>
+        </div>
+      ) : (
+        <div className="aspect-[4/3] bg-gray-100 rounded-md" />
+      )}
+
       <div className="p-3">
         <p className="font-medium text-sm">{name}</p>
         {label && <p className="text-xs text-gray-500 mt-1">{label}</p>}
