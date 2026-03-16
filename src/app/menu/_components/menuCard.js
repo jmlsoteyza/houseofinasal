@@ -12,9 +12,8 @@ export default function MenuCard({ item }) {
       )}
 
       <div className="p-3">
-        <p className="font-medium text-sm">{name}</p>
+        <p className="font-medium text-sm text-center my-4">{name}</p>
         {label && <p className="text-xs text-gray-500 mt-1">{label}</p>}
-        {description && <p className="text-xs text-gray-400 mt-1">{description}</p>}
         <p className="text-sm font-medium mt-2">
           {price ? `AED ${price}` : <span className="text-gray-400 italic text-xs">Price TBC</span>}
         </p>

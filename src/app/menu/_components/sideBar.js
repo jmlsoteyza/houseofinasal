@@ -1,12 +1,15 @@
 export default function SideBar({ tabs, activeTab, onTabChange }) {
   return (
-    <aside className="w-48 mt-6 min-h-screen shrink-0">
+    <aside className="w-48 mt-6 h-screen shrink-0 sticky top-23">
       {tabs.map((tab) => (
-        <div className="flex flex-col items-start mb-4" key={tab} onClick={() => onTabChange(tab)}>
-          <button className="bg-[#27AE60] w-full p-2 rounded-lg">
-            <span className="text-sm w-full font-ui font-semibold text-white">{tab}</span>
-          </button>
-        </div>
+        <button
+          key={tab}
+          onClick={() => onTabChange(tab)}
+          className={`w-full py-2.5 rounded-lg cursor-pointer transition-colors duration-200 text-sm font-bold text-white mb-3
+            ${activeTab === tab ? 'bg-[#1a8a47]' : 'bg-[#27AE60] hover:bg-[#2C9751]'}`}
+        >
+          {tab}
+        </button>
       ))}
     </aside>
   );
