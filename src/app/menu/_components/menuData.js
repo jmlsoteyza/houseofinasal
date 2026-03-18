@@ -27,6 +27,14 @@ export const menu = [
     label: 'Served with unlimited rice',
     description: ''
   },
+  {
+    name: 'Grilled Bangus',
+    price: 32,
+    image: 'none yet',
+    tabs: ['Full Menu', 'Inasal Specials'],
+    label: '',
+    description: ''
+  },
 
   // Combo Meals
   {
