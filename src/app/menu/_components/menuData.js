@@ -14,7 +14,7 @@ export const menu = [
   {
     name: 'Inasal Pecho',
     price: 28,
-    image: 'none yet',
+    image: '/images/menuImages/inasalPecho.webp',
     tabs: ['Full Menu', 'Inasal Specials'],
     label: 'Served with unlimited rice',
     description: ''
@@ -22,7 +22,7 @@ export const menu = [
   {
     name: 'Inasal Paa',
     price: 27,
-    image: 'none yet',
+    image: '/images/menuImages/inasalPaa.webp',
     tabs: ['Full Menu', 'Inasal Specials'],
     label: 'Served with unlimited rice',
     description: ''
@@ -30,7 +30,7 @@ export const menu = [
   {
     name: 'Grilled Bangus',
     price: 32,
-    image: 'none yet',
+    image: '/images/menuImages/inasal-grilled-bangus.webp',
     tabs: ['Full Menu', 'Inasal Specials'],
     label: '',
     description: ''
