@@ -78,7 +78,7 @@ export const menu = [
   {
     name: 'Beef Sisig',
     price: 22,
-    image: 'none yet',
+    image: '/menuImages/sisig-beef.webp',
     tabs: ['Full Menu', 'Sisig'],
     label: '',
     description: 'Choice of beef, chicken, bangus, or tofu'
@@ -86,7 +86,7 @@ export const menu = [
   {
     name: 'Chicken Sisig',
     price: 22,
-    image: 'none yet',
+    image: '/menuImages/sisig-chicken.webp',
     tabs: ['Full Menu', 'Sisig'],
     label: '',
     description: 'Choice of beef, chicken, bangus, or tofu'
@@ -94,7 +94,7 @@ export const menu = [
   {
     name: 'Bangus Sisig',
     price: 22,
-    image: 'none yet',
+    image: '/menuImages/sisig-bangus.webp',
     tabs: ['Full Menu', 'Sisig'],
     label: '',
     description: 'Choice of beef, chicken, bangus, or tofu'
@@ -102,10 +102,11 @@ export const menu = [
   {
     name: 'Tofu Sisig',
     price: 22,
-    image: 'none yet',
+    image: '/menuImages/sisig-tofu.webp',
     tabs: ['Full Menu', 'Sisig'],
     label: '',
-    description: 'Choice of beef, chicken, bangus, or tofu'
+    description: 'Choice of beef, chicken, bangus, or tofu',
+    isObjectFit: true
   },
 
   // Silog

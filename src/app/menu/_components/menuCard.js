@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 export default function MenuCard({ item }) {
-  const { name, price, label, description, image } = item;
+  const { name, price, label, description, image, isObjectFit } = item;
 
   return (
     <div className="flex flex-col shadow-md rounded-lg p-4 overflow-hidden font-ui">
@@ -12,7 +12,7 @@ export default function MenuCard({ item }) {
             alt={name}
             width={225}
             height={225}
-            className="w-full h-full object-cover"
+            className={`w-full h-full ${isObjectFit ? 'object-none' : 'object-cover'}`}
           />
         </div>
       ) : (
