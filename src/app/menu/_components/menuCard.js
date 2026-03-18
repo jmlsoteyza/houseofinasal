@@ -3,8 +3,10 @@ import Image from 'next/image';
 export default function MenuCard({ item }) {
   const { name, price, label, description, image, isObjectFit } = item;
 
+  // box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; (hover)
+
   return (
-    <div className="flex flex-col shadow-md rounded-lg p-4 overflow-hidden font-ui">
+    <div className="flex flex-col rounded-lg p-4 overflow-hidden font-ui shadow-[0_0_10px_0_rgba(0,0,0,0.1)]">
       {image !== 'none yet' ? (
         <div className="max-w-[225px] h-[225px] w-full self-center">
           <Image
