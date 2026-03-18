@@ -14,7 +14,7 @@ export const menu = [
   {
     name: 'Inasal Pecho',
     price: 28,
-    image: '/menuImages/inasalPecho.webp',
+    image: '/menuImages/inasal-pecho.webp',
     tabs: ['Full Menu', 'Inasal Specials'],
     label: 'Served with unlimited rice',
     description: ''
@@ -22,7 +22,7 @@ export const menu = [
   {
     name: 'Inasal Paa',
     price: 27,
-    image: '/menuImages/inasalPaa.webp',
+    image: '/menuImages/inasal-paa.webp',
     tabs: ['Full Menu', 'Inasal Specials'],
     label: 'Served with unlimited rice',
     description: ''
