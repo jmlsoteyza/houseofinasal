@@ -138,7 +138,7 @@ export const menu = [
   {
     name: 'Bulalo',
     price: 28,
-    image: 'none yet',
+    image: '/images/menuImages/fc-bulalo.webp',
     tabs: ['Full Menu', 'Filipino Classics'],
     label: 'Served with rice',
     description: ''
@@ -154,7 +154,7 @@ export const menu = [
   {
     name: 'Beef Pares',
     price: 20,
-    image: 'none yet',
+    image: '/images/menuImages/fc-beef-pares.webp',
     tabs: ['Full Menu', 'Filipino Classics'],
     label: 'Served with rice',
     description: ''
@@ -162,7 +162,7 @@ export const menu = [
   {
     name: 'Laing',
     price: 20,
-    image: 'none yet',
+    image: '/images/menuImages/fc-laing.webp',
     tabs: ['Full Menu', 'Filipino Classics'],
     label: 'Served with rice',
     description: ''
@@ -170,7 +170,7 @@ export const menu = [
   {
     name: 'Chicken Katsu',
     price: 28,
-    image: 'none yet',
+    image: '/images/menuImages/fc-chickenkatsu.webp',
     tabs: ['Full Menu', 'Filipino Classics'],
     label: 'Free lemonade or iced tea',
     description: 'Choice of gravy, teriyaki, or curry sauce'
@@ -178,7 +178,7 @@ export const menu = [
   {
     name: 'Palabok',
     price: 20,
-    image: 'none yet',
+    image: '/images/menuImages/fc-palabok.webp',
     tabs: ['Full Menu', 'Filipino Classics'],
     label: '',
     description: ''
@@ -186,7 +186,7 @@ export const menu = [
   {
     name: 'Bihon',
     price: 20,
-    image: 'none yet',
+    image: '/images/menuImages/fc-bihon.webp',
     tabs: ['Full Menu', 'Filipino Classics'],
     label: '',
     description: ''
@@ -194,7 +194,7 @@ export const menu = [
   {
     name: 'Spaghetti',
     price: 20,
-    image: 'none yet',
+    image: '/images/menuImages/fc-spaghetti.webp',
     tabs: ['Full Menu', 'Filipino Classics'],
     label: '',
     description: ''
