@@ -40,7 +40,7 @@ export const menu = [
   {
     name: 'Inasal Duo Combo',
     price: 45,
-    image: 'none yet',
+    image: '/menuImages/inasal-duo.webp',
     tabs: ['Full Menu', 'Combo Meals'],
     label: 'Served with unlimited rice',
     description:
@@ -49,7 +49,7 @@ export const menu = [
   {
     name: 'Inasal Halo Combo',
     price: 39,
-    image: 'none yet',
+    image: '/menuImages/inasal-halo.webp',
     tabs: ['Full Menu', 'Combo Meals'],
     label: 'Served with unlimited rice',
     description:
@@ -58,7 +58,7 @@ export const menu = [
   {
     name: 'Silog Supreme Combo',
     price: 28,
-    image: 'none yet',
+    image: '/menuImages/silog-supreme.webp',
     tabs: ['Full Menu', 'Combo Meals'],
     label: '',
     description:
@@ -67,7 +67,7 @@ export const menu = [
   {
     name: 'Silog Halo Combo',
     price: 34,
-    image: 'none yet',
+    image: '/menuImages/silog-halo.webp',
     tabs: ['Full Menu', 'Combo Meals'],
     label: '',
     description:
