@@ -16,7 +16,7 @@ export const menu = [
     price: 28,
     image: '/menuImages/inasal-pecho.webp',
     tabs: ['Full Menu', 'Inasal Specials'],
-    label: 'Served with unlimited rice',
+    label: 'Served with unlimited rice 🔥',
     description: ''
   },
   {
@@ -24,7 +24,7 @@ export const menu = [
     price: 27,
     image: '/menuImages/inasal-paa.webp',
     tabs: ['Full Menu', 'Inasal Specials'],
-    label: 'Served with unlimited rice',
+    label: 'Served with unlimited rice 🔥',
     description: ''
   },
   {
@@ -42,7 +42,7 @@ export const menu = [
     price: 45,
     image: '/menuImages/inasal-duo.webp',
     tabs: ['Full Menu', 'Combo Meals'],
-    label: 'Served with unlimited rice',
+    label: 'Served with unlimited rice 🔥',
     description:
       '2 inasal (paa or pecho), 1 side (palabok, bihon, or lumpiang togue), 1 drink (lemonade, iced tea, water or +3 AED for soft drinks)'
   },
@@ -51,7 +51,7 @@ export const menu = [
     price: 39,
     image: '/menuImages/inasal-halo.webp',
     tabs: ['Full Menu', 'Combo Meals'],
-    label: 'Served with unlimited rice',
+    label: 'Served with unlimited rice 🔥',
     description:
       '1 inasal (paa or pecho), 1 side (palabok, bihon, or lumpiang togue), 1 dessert (halo halo, coffee jelly, or banana con yelo), 1 drink (lemonade, iced tea, water or +3 AED for soft drinks)'
   },

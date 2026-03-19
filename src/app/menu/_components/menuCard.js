@@ -20,10 +20,10 @@ export default function MenuCard({ item }) {
       ) : (
         <div className="aspect-[4/3] bg-gray-100 rounded-md" />
       )}
-      <div className="p-3">
-        <p className="font-medium text-sm text-center">{name}</p>
-        {label && <p className="text-xs text-gray-500 mt-1">{label}</p>}
-        <p className="text-sm font-medium mt-2">
+      <div className="px-3">
+        <p className="font-medium text-center text-normal mt-2">{name}</p>
+        {label && <p className="text-xs text-gray-500 mt-2">{label}</p>}
+        <p className={`text-sm font-medium mt-2 ${!label ? 'mt-8' : 'mt-2'}`}>
           {price ? `AED ${price}` : <span className="text-gray-400 italic text-xs">Price TBC</span>}
         </p>
       </div>
