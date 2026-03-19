@@ -69,7 +69,7 @@ export const menu = [
     price: 34,
     image: '/menuImages/silog-halo.webp',
     tabs: ['Full Menu', 'Combo Meals'],
-    label: '',
+    label: '1 sisig or silog, 1 dessert, 1 drink',
     description:
       '1 sisig or silog (beef, chicken, bangus, or tofu), 1 dessert (halo halo, coffee jelly, or banana con yelo), 1 drink (lemonade, iced tea, water or +3 AED for soft drinks)'
   },
