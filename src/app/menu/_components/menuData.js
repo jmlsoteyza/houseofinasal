@@ -113,7 +113,7 @@ export const menu = [
   {
     name: 'Tapsilog',
     price: 22,
-    image: 'none yet',
+    image: '/menuImages/silog-tapa.webp',
     tabs: ['Full Menu', 'Silog'],
     label: '',
     description: ''
@@ -121,7 +121,7 @@ export const menu = [
   {
     name: 'Bangsilog',
     price: 22,
-    image: 'none yet',
+    image: '/menuImages/silog-bang.webp',
     tabs: ['Full Menu', 'Silog'],
     label: '',
     description: ''
@@ -129,7 +129,7 @@ export const menu = [
   {
     name: 'Longsilog',
     price: 22,
-    image: 'none yet',
+    image: '/menuImages/silog-long.webp',
     tabs: ['Full Menu', 'Silog'],
     label: '',
     description: ''

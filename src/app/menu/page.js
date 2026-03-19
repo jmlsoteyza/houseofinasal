@@ -18,7 +18,7 @@ export default function Menu() {
           <div className="w-48 shrink-0" /> {/* spacer matching sidebar width */}
           <p className="text-2xl font-medium p-6">{activeTab}</p>
         </div>
-        <div className="flex w-full border">
+        <div className="flex w-full">
           <SideBar tabs={tabs} activeTab={activeTab} onTabChange={setActiveTab} />
           <div className="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-6 gap-6 auto-rows-[350px]">
             {filtered.map((item) => (
