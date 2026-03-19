@@ -92,7 +92,7 @@ export default function Footer() {
             />
           </Link>
           {/* Social icons */}
-          <div className="flex gap-3 mt-2">
+          <div className="flex gap-[.938rem] mt-2">
             {socialLinks.map((s) => (
               <a
                 key={s.label}
