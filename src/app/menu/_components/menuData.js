@@ -30,7 +30,7 @@ export const menu = [
   {
     name: 'Grilled Bangus',
     price: 32,
-    image: '/menuImages/inasal-grilled-bangus.webp',
+    image: '/menuImages/inasal-grilled-bangus2.webp',
     tabs: ['Full Menu', 'Inasal Specials'],
     label: '',
     description: ''
