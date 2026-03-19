@@ -163,7 +163,7 @@ export const menu = [
   {
     name: 'Laing',
     price: 20,
-    image: '/menuImages/fc-laing.webp',
+    image: '/menuImages/fc-laing1.webp',
     tabs: ['Full Menu', 'Filipino Classics'],
     label: 'Served with rice',
     description: ''
@@ -179,7 +179,7 @@ export const menu = [
   {
     name: 'Palabok',
     price: 20,
-    image: '/menuImages/fc-palabok.webp',
+    image: '/menuImages/fc-palabok1.webp',
     tabs: ['Full Menu', 'Filipino Classics'],
     label: '',
     description: ''
@@ -187,7 +187,7 @@ export const menu = [
   {
     name: 'Bihon',
     price: 20,
-    image: '/menuImages/fc-bihon.webp',
+    image: '/menuImages/fc-bihon1.webp',
     tabs: ['Full Menu', 'Filipino Classics'],
     label: '',
     description: ''
@@ -195,7 +195,7 @@ export const menu = [
   {
     name: 'Spaghetti',
     price: 20,
-    image: '/menuImages/fc-spaghetti.webp',
+    image: '/menuImages/fc-spaghetti1.webp',
     tabs: ['Full Menu', 'Filipino Classics'],
     label: '',
     description: ''
