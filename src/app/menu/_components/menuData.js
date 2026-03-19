@@ -221,7 +221,7 @@ export const menu = [
   {
     name: 'Lumpiang Togue',
     price: 12,
-    image: 'none yet',
+    image: '/menuImages/lumpiang-toge.webp',
     tabs: ['Full Menu', 'Small Bites'],
     label: '3 pcs',
     description: ''
@@ -229,7 +229,7 @@ export const menu = [
   {
     name: 'Sisig Lumpia',
     price: 12,
-    image: 'none yet',
+    image: '/menuImages/sisig-lumpia.webp',
     tabs: ['Full Menu', 'Small Bites'],
     label: '3 pcs',
     description: 'Choice of beef, chicken, or bangus'
@@ -239,7 +239,7 @@ export const menu = [
   {
     name: 'Turon with Langka',
     price: null,
-    image: 'none yet',
+    image: '/menuImages/ds-turon-with-langka.webp',
     tabs: ['Full Menu', 'Desserts'],
     label: '3 pcs — TBC',
     description: ''
@@ -247,7 +247,7 @@ export const menu = [
   {
     name: 'Banana con Yelo',
     price: 15,
-    image: 'none yet',
+    image: '/menuImages/ds-babana-con-yelo1.webp',
     tabs: ['Full Menu', 'Desserts'],
     label: '',
     description: ''
@@ -263,7 +263,7 @@ export const menu = [
   {
     name: 'Bibingka',
     price: 12,
-    image: 'none yet',
+    image: '/menuImages/ds-bibingka.webp',
     tabs: ['Full Menu', 'Desserts'],
     label: '2 pcs',
     description: ''
@@ -271,7 +271,7 @@ export const menu = [
   {
     name: 'Coffee Jelly',
     price: 12,
-    image: 'none yet',
+    image: '/menuImages/ds-coffee-jelly1.webp',
     tabs: ['Full Menu', 'Desserts'],
     label: '',
     description: ''
