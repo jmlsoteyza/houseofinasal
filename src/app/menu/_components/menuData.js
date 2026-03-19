@@ -171,7 +171,7 @@ export const menu = [
   {
     name: 'Chicken Katsu',
     price: 28,
-    image: '/menuImages/fc-chickenkatsu.webp',
+    image: '/menuImages/fc-chicken-katsu.webp',
     tabs: ['Full Menu', 'Filipino Classics'],
     label: 'Free lemonade or iced tea',
     description: 'Choice of gravy, teriyaki, or curry sauce'
