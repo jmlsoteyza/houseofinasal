@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 export default function MenuCard({ item }) {
-  const { name, price, label, description, image, isObjectFit } = item;
+  const { name, price, label, image, alt, isObjectFit } = item;
 
   // box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; (hover)
 
@@ -11,7 +11,7 @@ export default function MenuCard({ item }) {
         <div className="max-w-[225px] h-[225px] w-full self-center">
           <Image
             src={image}
-            alt={name}
+            alt={alt}
             width={225}
             height={225}
             className={`w-full h-full ${isObjectFit ? 'object-none' : 'object-cover'}`}
