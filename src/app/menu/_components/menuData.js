@@ -46,9 +46,7 @@ export const menu = [
     image: '/menuImages/inasal-duo.webp',
     alt: 'Inasal duo combo meal with 2 inasal, side dish and drink',
     tabs: ['Full Menu', 'Combo Meals'],
-    label: 'Served with unlimited rice 🔥',
-    description:
-      '2 inasal (paa or pecho), 1 side (palabok, bihon, or lumpiang togue), 1 drink (lemonade, iced tea, water or +3 AED for soft drinks)'
+    label: 'Unlimited rice 🔥, 2 inasal, 1 side, 1 drink'
   },
   {
     name: 'Inasal Halo Combo',
@@ -56,9 +54,7 @@ export const menu = [
     image: '/menuImages/inasal-halo.webp',
     alt: 'Inasal halo combo meal with inasal, side, dessert and drink',
     tabs: ['Full Menu', 'Combo Meals'],
-    label: 'Served with unlimited rice 🔥',
-    description:
-      '1 inasal (paa or pecho), 1 side (palabok, bihon, or lumpiang togue), 1 dessert (halo halo, coffee jelly, or banana con yelo), 1 drink (lemonade, iced tea, water or +3 AED for soft drinks)'
+    label: 'Unlimited rice 🔥, 1 inasal, 1 side, 1 drink, 1 dessert'
   },
   {
     name: 'Silog Supreme Combo',
@@ -66,9 +62,7 @@ export const menu = [
     image: '/menuImages/silog-supreme.webp',
     alt: 'Silog supreme combo with sisig or silog, side and drink',
     tabs: ['Full Menu', 'Combo Meals'],
-    label: '',
-    description:
-      '1 sisig or silog (beef, chicken, bangus, or tofu), 1 side (palabok, bihon, or lumpiang togue), 1 drink (lemonade, iced tea, water or +3 AED for soft drinks)'
+    label: 'Unlimited rice 🔥, 1 sisig or silog, 1 side, 1 drink'
   },
   {
     name: 'Silog Halo Combo',
@@ -76,9 +70,7 @@ export const menu = [
     image: '/menuImages/silog-halo.webp',
     alt: 'Silog halo combo with sisig or silog, dessert and drink',
     tabs: ['Full Menu', 'Combo Meals'],
-    label: '1 sisig or silog, 1 dessert, 1 drink',
-    description:
-      '1 sisig or silog (beef, chicken, bangus, or tofu), 1 dessert (halo halo, coffee jelly, or banana con yelo), 1 drink (lemonade, iced tea, water or +3 AED for soft drinks)'
+    label: 'Unlimited rice 🔥, 1 sisig or silog, 1 dessert, 1 drink'
   },
 
   // Sisig
