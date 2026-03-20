@@ -20,7 +20,7 @@ export default function Menu() {
         </div>
         <div className="flex w-full">
           <SideBar tabs={tabs} activeTab={activeTab} onTabChange={setActiveTab} />
-          <div className="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-6 py-4 gap-8 auto-rows-[350px]">
+          <div className="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-6 py-4 gap-8 ">
             {filtered.map((item) => (
               <MenuCard key={item.name} item={item} />
             ))}

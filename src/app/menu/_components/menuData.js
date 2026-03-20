@@ -35,8 +35,7 @@ export const menu = [
     image: '/menuImages/inasal-grilled-bangus2.webp',
     alt: 'Grilled bangus milkfish Filipino style',
     tabs: ['Full Menu', 'Inasal Specials'],
-    label: '',
-    description: ''
+    label: 'Smoky & tender whole grilled milkfish 🔥'
   },
 
   // Combo Meals
@@ -115,8 +114,7 @@ export const menu = [
     image: '/menuImages/silog-tapa.webp',
     alt: 'Tapsilog with tapa beef, sinangag fried rice and egg',
     tabs: ['Full Menu', 'Silog'],
-    label: '',
-    description: ''
+    label: 'Sweet & savory cured beef'
   },
   {
     name: 'Bangsilog',
@@ -124,8 +122,7 @@ export const menu = [
     image: '/menuImages/silog-bang.webp',
     alt: 'Bangsilog with grilled bangus, sinangag fried rice and egg',
     tabs: ['Full Menu', 'Silog'],
-    label: '',
-    description: ''
+    label: 'Freshly grilled milkfish'
   },
   {
     name: 'Longsilog',
@@ -133,8 +130,7 @@ export const menu = [
     image: '/menuImages/silog-long.webp',
     alt: 'Longsilog with longganisa sausage, sinangag fried rice and egg',
     tabs: ['Full Menu', 'Silog'],
-    label: '',
-    description: ''
+    label: 'Sweet Filipino sausage'
   },
 
   // Filipino Classics
@@ -144,26 +140,23 @@ export const menu = [
     image: '/menuImages/fc-bulalo.webp',
     alt: 'Filipino bulalo beef bone marrow soup served with rice',
     tabs: ['Full Menu', 'Filipino Classics'],
-    label: 'Served with rice',
-    description: ''
+    label: 'Served with rice 🔥'
   },
-  {
-    name: 'Kansi',
-    price: 28,
-    image: 'none yet',
-    alt: 'Filipino kansi sour beef bone marrow soup served with rice',
-    tabs: ['Full Menu', 'Filipino Classics'],
-    label: 'Served with rice',
-    description: ''
-  },
+  // {
+  //   name: 'Kansi',
+  //   price: 28,
+  //   image: 'none yet',
+  //   alt: 'Filipino kansi sour beef bone marrow soup served with rice',
+  //   tabs: ['Full Menu', 'Filipino Classics'],
+  //   label: 'Served with rice 🔥'
+  // },
   {
     name: 'Beef Pares',
     price: 20,
     image: '/menuImages/fc-beef-pares.webp',
     alt: 'Filipino beef pares braised beef served with rice',
     tabs: ['Full Menu', 'Filipino Classics'],
-    label: 'Served with rice',
-    description: ''
+    label: 'Served with rice 🔥'
   },
   {
     name: 'Laing',
@@ -171,8 +164,7 @@ export const menu = [
     image: '/menuImages/fc-laing1.webp',
     alt: 'Filipino laing taro leaves in coconut milk served with rice',
     tabs: ['Full Menu', 'Filipino Classics'],
-    label: 'Served with rice',
-    description: ''
+    label: 'Served with rice 🔥'
   },
   {
     name: 'Chicken Katsu',
@@ -180,8 +172,7 @@ export const menu = [
     image: '/menuImages/fc-chicken-katsu.webp',
     alt: 'Crispy chicken katsu with choice of gravy teriyaki or curry sauce',
     tabs: ['Full Menu', 'Filipino Classics'],
-    label: 'Free lemonade or iced tea',
-    description: 'Choice of gravy, teriyaki, or curry sauce'
+    label: 'Gravy, teriyaki, or curry · Free lemonade or iced tea'
   },
   {
     name: 'Palabok',
@@ -189,8 +180,7 @@ export const menu = [
     image: '/menuImages/fc-palabok1.webp',
     alt: 'Filipino palabok noodles with shrimp sauce and toppings',
     tabs: ['Full Menu', 'Filipino Classics'],
-    label: '',
-    description: ''
+    label: 'Smothered in savory shrimp sauce 🍤'
   },
   {
     name: 'Bihon',
@@ -198,8 +188,7 @@ export const menu = [
     image: '/menuImages/fc-bihon1.webp',
     alt: 'Filipino bihon stir fried rice noodles',
     tabs: ['Full Menu', 'Filipino Classics'],
-    label: '',
-    description: ''
+    label: 'Light & savory stir-fried noodles'
   },
   {
     name: 'Spaghetti',
@@ -207,27 +196,26 @@ export const menu = [
     image: '/menuImages/fc-spaghetti1.webp',
     alt: 'Filipino style sweet spaghetti with hotdog and cheese',
     tabs: ['Full Menu', 'Filipino Classics'],
-    label: '',
-    description: ''
+    label: 'Sweet & cheesy Filipino style 🧀'
   },
-  {
-    name: 'Seafood Cajun',
-    price: null,
-    image: 'none yet',
-    alt: 'Seafood cajun dish coming soon',
-    tabs: ['Full Menu', 'Filipino Classics'],
-    label: 'TBC',
-    description: ''
-  },
-  {
-    name: 'Siomai',
-    price: null,
-    image: 'none yet',
-    alt: 'Filipino siomai dumplings coming soon',
-    tabs: ['Full Menu', 'Filipino Classics'],
-    label: 'TBC',
-    description: ''
-  },
+  // {
+  //   name: 'Seafood Cajun',
+  //   price: null,
+  //   image: 'none yet',
+  //   alt: 'Seafood cajun dish coming soon',
+  //   tabs: ['Full Menu', 'Filipino Classics'],
+  //   label: 'TBC',
+  //   description: ''
+  // },
+  // {
+  //   name: 'Siomai',
+  //   price: null,
+  //   image: 'none yet',
+  //   alt: 'Filipino siomai dumplings coming soon',
+  //   tabs: ['Full Menu', 'Filipino Classics'],
+  //   label: 'TBC',
+  //   description: ''
+  // },
 
   // Small Bites
   {
@@ -236,8 +224,7 @@ export const menu = [
     image: '/menuImages/lumpiang-toge.webp',
     alt: 'Lumpiang togue crispy bean sprout spring rolls 3 pieces',
     tabs: ['Full Menu', 'Small Bites'],
-    label: '3 pcs',
-    description: ''
+    label: 'Crispy bean sprout spring rolls · 3 pcs'
   },
   {
     name: 'Sisig Lumpia',
@@ -245,8 +232,7 @@ export const menu = [
     image: '/menuImages/sisig-lumpia.webp',
     alt: 'Crispy sisig lumpia spring rolls 3 pieces choice of beef chicken or bangus',
     tabs: ['Full Menu', 'Small Bites'],
-    label: '3 pcs',
-    description: 'Choice of beef, chicken, or bangus'
+    label: 'Beef, chicken, or bangus · 3 pcs'
   },
 
   // Desserts
@@ -256,8 +242,7 @@ export const menu = [
     image: '/menuImages/ds-turon-with-langka.webp',
     alt: 'Filipino turon banana spring rolls with langka jackfruit 3 pieces',
     tabs: ['Full Menu', 'Desserts'],
-    label: '3 pcs — TBC',
-    description: ''
+    label: 'Crispy banana & jackfruit rolls · 3 pcs — TBC'
   },
   {
     name: 'Banana con Yelo',
@@ -265,26 +250,23 @@ export const menu = [
     image: '/menuImages/ds-babana-con-yelo1.webp',
     alt: 'Filipino banana con yelo shaved ice dessert with banana',
     tabs: ['Full Menu', 'Desserts'],
-    label: '',
-    description: ''
+    label: 'Sweet banana with shaved ice & milk'
   },
-  {
-    name: 'Halo Halo',
-    price: 15,
-    image: 'none yet',
-    alt: 'Filipino halo halo mixed shaved ice dessert',
-    tabs: ['Full Menu', 'Desserts'],
-    label: '',
-    description: ''
-  },
+  // {
+  //   name: 'Halo Halo',
+  //   price: 15,
+  //   image: 'none yet',
+  //   alt: 'Filipino halo halo mixed shaved ice dessert',
+  //   tabs: ['Full Menu', 'Desserts'],
+  //   label: 'Mixed fruits, jellies & shaved ice 🍧'
+  // },
   {
     name: 'Bibingka',
     price: 12,
     image: '/menuImages/ds-bibingka.webp',
     alt: 'Filipino bibingka rice cake 2 pieces',
     tabs: ['Full Menu', 'Desserts'],
-    label: '2 pcs',
-    description: ''
+    label: 'Soft & fluffy rice cake · 2 pcs'
   },
   {
     name: 'Coffee Jelly',
@@ -292,16 +274,14 @@ export const menu = [
     image: '/menuImages/ds-coffee-jelly1.webp',
     alt: 'Filipino coffee jelly dessert with cream',
     tabs: ['Full Menu', 'Desserts'],
-    label: '',
-    description: ''
-  },
-  {
-    name: 'Leche Flan',
-    price: 12,
-    image: 'none yet',
-    alt: 'Filipino leche flan caramel custard dessert',
-    tabs: ['Full Menu', 'Desserts'],
-    label: '',
-    description: ''
+    label: 'Coffee jelly in sweet cream'
   }
+  // {
+  //   name: 'Leche Flan',
+  //   price: 12,
+  //   image: 'none yet',
+  //   alt: 'Filipino leche flan caramel custard dessert',
+  //   tabs: ['Full Menu', 'Desserts'],
+  //   label: 'Silky smooth caramel custard'
+  // }
 ];
