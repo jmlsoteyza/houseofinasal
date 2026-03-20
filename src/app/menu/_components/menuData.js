@@ -80,8 +80,7 @@ export const menu = [
     image: '/menuImages/sisig-beef.webp',
     alt: 'Sizzling beef sisig on a hot plate',
     tabs: ['Full Menu', 'Sisig'],
-    label: '',
-    description: 'Choice of beef, chicken, bangus, or tofu'
+    label: 'Served on a sizzling plate 🔥'
   },
   {
     name: 'Chicken Sisig',
@@ -89,8 +88,7 @@ export const menu = [
     image: '/menuImages/sisig-chicken.webp',
     alt: 'Sizzling chicken sisig on a hot plate',
     tabs: ['Full Menu', 'Sisig'],
-    label: '',
-    description: 'Choice of beef, chicken, bangus, or tofu'
+    label: 'Served on a sizzling plate 🔥'
   },
   {
     name: 'Bangus Sisig',
@@ -98,8 +96,7 @@ export const menu = [
     image: '/menuImages/sisig-bangus.webp',
     alt: 'Sizzling bangus milkfish sisig on a hot plate',
     tabs: ['Full Menu', 'Sisig'],
-    label: '',
-    description: 'Choice of beef, chicken, bangus, or tofu'
+    label: 'Served on a sizzling plate 🔥'
   },
   {
     name: 'Tofu Sisig',
@@ -107,8 +104,7 @@ export const menu = [
     image: '/menuImages/sisig-tofu.webp',
     alt: 'Sizzling tofu sisig on a hot plate',
     tabs: ['Full Menu', 'Sisig'],
-    label: '',
-    description: 'Choice of beef, chicken, bangus, or tofu',
+    label: 'Served on a sizzling plate 🔥',
     isObjectFit: true
   },
 
