@@ -20,17 +20,15 @@ export default function Location() {
       <div className="h-[250px] w-full bg-green-800">Save this later</div>
 
       <section className="px-8 py-10 my-24 mx-auto rounded-lg max-w-[1260px] shadow-[0_0_10px_0_rgba(0,0,0,.1)]">
-        <div className="flex flex-row gap-12">
+        <div className="flex flex-col-reverse gap-12 lg:flex-row">
           {/* map */}
           <div className="rounded-sm">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2337.369242260709!2d55.371426302757705!3d25.29712093594576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5d000e4942b1%3A0x7dfc6b67a1eba9!2sHouse%20Of%20Inasal%20UAE!5e1!3m2!1sen!2sae!4v1773902819331!5m2!1sen!2sae"
-              width="650"
-              height="600"
+              className="w-full lg:w-[650px] h-[600px] lg:h-[600px] rounded-sm border-0"
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              style={{ border: 0 }}
             />
           </div>
 
