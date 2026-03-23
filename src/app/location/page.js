@@ -82,8 +82,8 @@ export default function Location() {
               </div>
             </div>
 
-            {/* <a
-              href="https://maps.google.com/?q=House+Of+Inasal+UAE"
+            <a
+              href="https://www.google.com/maps/place/House+Of+Inasal+UAE/@25.2641209,55.3016143,14673m/data=!3m1!1e3!4m10!1m2!2m1!1sHouse+Of+Inasal+UAE!3m6!1s0x3e5f5d000e4942b1:0x7dfc6b67a1eba9!8m2!3d25.2972627!4d55.3721536!15sChNIb3VzZSBPZiBJbmFzYWwgVUFFWhUiE2hvdXNlIG9mIGluYXNhbCB1YWWSAQxzb3VwX2tpdGNoZW6aAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMjVDTkdKWVFrOWhWbVJUVTNwQk0xVXlaRVpWVkd4c1dUSmtibEZYWXhBQuABAPoBBQiBAhA6!16s%2Fg%2F11xw73nty8?entry=ttu&g_ep=EgoyMDI2MDMxOC4xIKXMDSoASAFQAw%3D%3D"
               target="_blank"
               rel="noopener
             noreferrer"
@@ -91,7 +91,7 @@ export default function Location() {
             py-3 rounded-lg hover:bg-[#1a8a47] transition-colors duration-200"
             >
               Get Directions
-            </a> */}
+            </a>
           </div>
         </div>
       </section>
