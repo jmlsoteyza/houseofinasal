@@ -1,8 +1,25 @@
+import Image from 'next/image';
+
 export default function Location() {
+  const deliveryLinks = [
+    {
+      label: 'Noon',
+      href: 'https://www.noon.com',
+      img: 'https://f.nooncdn.com/s/app/com/noon/design-system/logos/noon-logo-en.svg',
+      bg: '#feee00'
+    },
+    {
+      label: 'Talabat',
+      href: 'https://www.talabat.com',
+      img: 'https://www.talabat.com/assets/images/remix-logo.svg',
+      bg: '#ff5900'
+    }
+  ];
   return (
     <section className="w-full">
-      <div className="h-[250px] w-full bg-green-800 mb-8">Save this later</div>
-      <section className="px-6 py-16 mx-auto max-w-[1250px]">
+      <div className="h-[250px] w-full bg-green-800">Save this later</div>
+
+      <section className="px-8 py-10 mb-20 mt-20 mx-auto max-w-[1258px] shadow-[0_0_10px_0_rgba(0,0,0,.1)] rounded-md">
         <div className="flex flex-row gap-12">
           {/* map */}
           <div className="rounded-sm">
@@ -18,35 +35,60 @@ export default function Location() {
           </div>
 
           {/* info */}
-          <div className="flex flex-col justify-between py-4">
+          <div className="flex flex-col justify-between py-4 font-ui">
             <div>
               <p className="text-2xl font-medium mb-2">Find Us</p>
-              <p className="text-gray-500 text-sm mb-8">
-                Authentic Filipino Inasal in the heart of Sharjah
-              </p>
+              <p className="text-sm mb-8">Authentic Filipino Inasal in the heart of Sharjah</p>
 
               <div className="flex flex-col gap-6">
                 <div>
-                  <p className="text-xs text-gray-400 mb-1">Address</p>
-                  <p className="text-sm">
+                  <p className="text-sm mb-1 font-[500]">Address</p>
+                  <p className="text-md text-[#8e8e8e] font-[400]">
                     Food Court, 1st Floor, Sahara Centre, Sahara Atrium, East Atrium, Sharjah, UAE
                   </p>
                 </div>
 
                 <div>
-                  <p className="text-xs text-gray-400 mb-1">Hours</p>
-                  <p className="text-sm">Mon – Fri · 11:00am – 11:00pm</p>
-                  <p className="text-sm">Sat – Sun · 10:00am – 12:00am</p>
+                  <p className="text-sm  mb-1 font-[500]">Business Hours</p>
+                  <p className="text-md text-[#8e8e8e] font-[400]">Mon – Fri · 11:00am – 11:00pm</p>
+                  <p className="text-md text-[#8e8e8e] font-[400]">Sat – Sun · 10:00am – 12:00am</p>
                 </div>
 
                 <div>
-                  <p className="text-xs text-gray-400 mb-1">Phone</p>
-                  <p className="text-sm">+971 XX XXX XXXX</p>
+                  <p className="text-sm mb-1 font-[500]">Contact</p>
+                  <p className="text-md text-[#8e8e8e] font-[400]">+971 600 560 031</p>
+                  <p className="text-md text-[#8e8e8e] font-[400]">houseofinasal@gmail.com</p>
+                </div>
+                <div>
+                  <p className="text-sm mb-1 font-[500]">Services</p>
+                  <div className="">
+                    <p className="text-md mb-2 font-[400] text-[#8e8e8e]">
+                      Dine-In , Take Out, Call & Pickup , Delivery
+                    </p>
+                    <div className="flex align-center gap-2.5 mt-2">
+                      {deliveryLinks.map((d) => (
+                        <a
+                          key={d.label}
+                          href={d.href}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className=""
+                        >
+                          <div
+                            className="h-6 w-full rounded-md flex items-center justify-center w-[50] h-[40] px-2"
+                            style={{ backgroundColor: d.bg }}
+                          >
+                            <Image src={d.img} alt={`${d.label}-logo`} width={50} height={50} />
+                          </div>
+                        </a>
+                      ))}
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
 
-            <a
+            {/* <a
               href="https://maps.google.com/?q=House+Of+Inasal+UAE"
               target="_blank"
               rel="noopener
@@ -55,7 +97,7 @@ export default function Location() {
             py-3 rounded-lg hover:bg-[#1a8a47] transition-colors duration-200"
             >
               Get Directions
-            </a>
+            </a> */}
           </div>
         </div>
       </section>
