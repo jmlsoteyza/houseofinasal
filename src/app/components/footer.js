@@ -185,7 +185,7 @@ export default function Footer() {
 
       {/* Bottom bar */}
       <div className="border-t border-white w-full mx-auto">
-        <div className="max-w-[1250px] mx-auto px-6 pt-8 pb-4 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-white">
+        <div className="max-w-[1250px] mx-auto px-6 py-6 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-white">
           <span className="font-semibold">© 2025 House of Inasal. All rights reserved.</span>
           <div className="flex gap-4 font-semibold">
             <Link href="/privacy-policy" className="hover:text-yellow-400 transition-colors">
