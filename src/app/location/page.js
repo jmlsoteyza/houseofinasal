@@ -19,13 +19,13 @@ export default function Location() {
     <section className="w-full">
       <div className="h-[250px] w-full bg-green-800">Save this later</div>
 
-      <section className="px-8 py-10 mb-20 mt-20 mx-auto max-w-[1258px] shadow-[0_0_10px_0_rgba(0,0,0,.1)] rounded-md">
+      <section className="px-8 py-10 my-24 mx-auto rounded-lg max-w-[1260px] shadow-[0_0_10px_0_rgba(0,0,0,.1)]">
         <div className="flex flex-row gap-12">
           {/* map */}
           <div className="rounded-sm">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2337.369242260709!2d55.371426302757705!3d25.29712093594576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5d000e4942b1%3A0x7dfc6b67a1eba9!2sHouse%20Of%20Inasal%20UAE!5e1!3m2!1sen!2sae!4v1773902819331!5m2!1sen!2sae"
-              width="720"
+              width="650"
               height="600"
               allowFullScreen=""
               loading="lazy"
@@ -38,42 +38,36 @@ export default function Location() {
           <div className="flex flex-col justify-between py-4 font-ui">
             <div>
               <p className="text-2xl font-medium mb-2">Find Us</p>
-              <p className="text-sm mb-8">Authentic Filipino Inasal in the heart of Sharjah</p>
+              <p className="text-md mb-6 text-[#8e8e8e]">Filipino Inasal in the heart of Sharjah</p>
 
               <div className="flex flex-col gap-6">
                 <div>
                   <p className="text-sm mb-1 font-[500]">Address</p>
-                  <p className="text-md text-[#8e8e8e] font-[400]">
+                  <p className="text-md text-[#8e8e8e]">
                     Food Court, 1st Floor, Sahara Centre, Sahara Atrium, East Atrium, Sharjah, UAE
                   </p>
                 </div>
 
                 <div>
                   <p className="text-sm  mb-1 font-[500]">Business Hours</p>
-                  <p className="text-md text-[#8e8e8e] font-[400]">Mon – Fri · 11:00am – 11:00pm</p>
-                  <p className="text-md text-[#8e8e8e] font-[400]">Sat – Sun · 10:00am – 12:00am</p>
+                  <p className="text-md text-[#8e8e8e]">Mon – Fri · 11:00am – 11:00pm</p>
+                  <p className="text-md text-[#8e8e8e]">Sat – Sun · 10:00am – 12:00am</p>
                 </div>
 
                 <div>
                   <p className="text-sm mb-1 font-[500]">Contact</p>
-                  <p className="text-md text-[#8e8e8e] font-[400]">+971 600 560 031</p>
-                  <p className="text-md text-[#8e8e8e] font-[400]">houseofinasal@gmail.com</p>
+                  <p className="text-md text-[#8e8e8e]">+971 600 560 031</p>
+                  <p className="text-md text-[#8e8e8e]">houseofinasal@gmail.com</p>
                 </div>
                 <div>
                   <p className="text-sm mb-1 font-[500]">Services</p>
-                  <div className="">
-                    <p className="text-md mb-2 font-[400] text-[#8e8e8e]">
+                  <div>
+                    <p className="text-md mb-2 text-[#8e8e8e]">
                       Dine-In , Take Out, Call & Pickup , Delivery
                     </p>
-                    <div className="flex align-center gap-2.5 mt-2">
+                    <div className="flex align-center gap-3 mt-2">
                       {deliveryLinks.map((d) => (
-                        <a
-                          key={d.label}
-                          href={d.href}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className=""
-                        >
+                        <a key={d.label} href={d.href} target="_blank" rel="noopener noreferrer">
                           <div
                             className="h-6 w-full rounded-md flex items-center justify-center w-[50] h-[40] px-2"
                             style={{ backgroundColor: d.bg }}
