@@ -36,8 +36,8 @@ export default function Location() {
           <div className="flex flex-col justify-between py-4 font-ui">
             <div>
               <p className="text-2xl font-medium mb-2">Find Us</p>
-              <p className="text-md mb-6 text-[#8e8e8e]">Filipino Inasal in the heart of Sharjah</p>
-
+              <p className="text-md text-[#8e8e8e]">Filipino Inasal in the heart of Sharjah</p>
+              <hr className="my-4 bg-grey-800 text-[#efefef]" />
               <div className="flex flex-col gap-6">
                 <div>
                   <p className="text-sm mb-1 font-[500]">Address</p>
