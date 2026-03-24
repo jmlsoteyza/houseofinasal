@@ -69,7 +69,7 @@ const deliveryLinks = [
   },
   {
     label: 'Talabat',
-    href: 'https://www.talabat.com',
+    href: 'https://www.talabat.com/uae/restaurant/763104/house-of-inasal-al-nahda?aid=1518',
     img: 'https://www.talabat.com/assets/images/remix-logo.svg',
     bg: '#ff5900'
   }
