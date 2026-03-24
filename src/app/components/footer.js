@@ -140,7 +140,7 @@ export default function Footer() {
             <li className="flex gap-2">
               <span>📞</span>
               <a href="tel:600560031" className="hover:text-yellow-400 transition-colors">
-                600560031
+                +971 600 560 031
               </a>
             </li>
             <li className="flex gap-2">
@@ -185,8 +185,18 @@ export default function Footer() {
 
       {/* Bottom bar */}
       <div className="border-t border-white w-full mx-auto">
-        <div className="max-w-[1250px] mx-auto px-6 py-6 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-white">
-          <span className="font-semibold">© 2025 House of Inasal. All rights reserved.</span>
+        <div className="max-w-[1250px] mx-auto px-6 py-6 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs align-center text-white content-center">
+          <span className="font-semibold">
+            © 2025 House of Inasal. All rights reserved. Made with 🤍 by{' '}
+            <a
+              href="https://jmlsoteyza.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-yellow-400"
+            >
+              jmlsoteyza
+            </a>
+          </span>
           <div className="flex gap-4 font-semibold">
             <Link href="/privacy-policy" className="hover:text-yellow-400 transition-colors">
               Privacy Policy
