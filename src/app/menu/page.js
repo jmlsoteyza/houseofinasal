@@ -14,6 +14,7 @@ export default function Menu() {
 
   const handleTabChange = (tab) => {
     setVisible(false);
+    window.scrollTo({ top: 200, behavior: 'smooth' });
     setTimeout(() => {
       setDisplayTab(tab);
       setActiveTab(tab);
