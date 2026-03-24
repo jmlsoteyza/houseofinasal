@@ -1,6 +1,6 @@
 export default function SideBar({ tabs, activeTab, onTabChange }) {
   return (
-    <aside className="w-46 mt-4 h-screen shrink-0 sticky top-23">
+    <aside className="w-46 mt-4 h-screen shrink-0 sticky top-23 hidden lg:block">
       {tabs.map((tab) => (
         <button
           key={tab}
