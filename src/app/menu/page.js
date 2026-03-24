@@ -7,8 +7,19 @@ import { useState } from 'react';
 
 export default function Menu() {
   const [activeTab, setActiveTab] = useState(tabs[0]);
+  const [displayTab, setDisplayTab] = useState(tabs[0]);
+  const [visible, setVisible] = useState(true);
 
-  const filtered = menu.filter((item) => item.tabs.includes(activeTab));
+  const filtered = menu.filter((item) => item.tabs.includes(displayTab));
+
+  const handleTabChange = (tab) => {
+    setVisible(false);
+    setTimeout(() => {
+      setDisplayTab(tab);
+      setActiveTab(tab);
+      setVisible(true);
+    }, 300); // match fade out duration
+  };
 
   return (
     <section>
@@ -24,7 +35,7 @@ export default function Menu() {
               <select
                 className="block w-full py-3 px-4 lg:hidden border border-[#27AE60] rounded-lg text-sm font-bold text-white bg-[#27AE60] cursor-pointer focus:outline-none focus:ring-2 focus:ring-[#1a8a47] appearance-none"
                 value={activeTab}
-                onChange={(e) => setActiveTab(e.target.value)}
+                onChange={(e) => handleTabChange(e.target.value)}
               >
                 {tabs.map((tab) => (
                   <option key={tab} value={tab} className="bg-green-700">
@@ -42,9 +53,13 @@ export default function Menu() {
           </div>
         </div>
         <div className="flex w-full">
-          <SideBar tabs={tabs} activeTab={activeTab} onTabChange={setActiveTab} />
+          <SideBar tabs={tabs} activeTab={activeTab} onTabChange={handleTabChange} />
           {/* add this to container when the image and menu data are finalized auto-rows-[360px] */}
-          <div className="flex-1 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 px-6 py-4 gap-8 auto-rows-[355px]">
+          <div
+            className={`${
+              visible ? 'fade-in' : 'fade-out'
+            } flex-1 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 px-6 py-4 gap-8 auto-rows-[355px]`}
+          >
             {filtered.map((item) => (
               <MenuCard key={item.name} item={item} />
             ))}
