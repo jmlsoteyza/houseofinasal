@@ -19,7 +19,7 @@ export default function Location() {
     <section className="w-full">
       <div className="h-[250px] w-full bg-green-800">Save this later</div>
 
-      <section className="px-8 py-10 my-24 mx-auto rounded-lg max-w-[1260px] shadow-[0_0_10px_0_rgba(0,0,0,.1)]">
+      <section className="px-6 py-6 my-24 mx-auto rounded-lg max-w-[1260px] shadow-[0_0_10px_0_rgba(0,0,0,.1)] lg:py-10 lg:px-8">
         <div className="flex flex-col-reverse gap-12 lg:flex-row">
           {/* map */}
           <div className="rounded-sm">
@@ -33,10 +33,10 @@ export default function Location() {
           </div>
 
           {/* info */}
-          <div className="flex flex-col justify-between py-4 font-ui">
+          <div className="flex flex-col justify-between font-ui lg:py-2">
             <div>
               <p className="text-2xl font-medium mb-2">Find Us</p>
-              <hr className="my-4 bg-grey-800 text-[#efefef]" />
+              <hr className="my-4 bg-grey-800 text-[#efefef] hidden lg:block" />
               <div className="flex flex-col gap-6">
                 <div>
                   <p className="text-sm mb-1 font-[500]">Address</p>
