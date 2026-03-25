@@ -35,7 +35,7 @@ export default function Navbar() {
         ${
           pathname === link.href
             ? 'text-[#2C9751] after:bg-[#2C9751]'
-            : 'text-gray-600 hover:text-[#2C9751] after:bg-transparent hover:after:bg-[#2C9751]'
+            : 'text-black hover:text-[#2C9751] after:bg-transparent hover:after:bg-[#2C9751]'
         }`}
             >
               {link.label}
