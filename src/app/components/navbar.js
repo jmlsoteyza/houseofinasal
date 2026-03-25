@@ -43,12 +43,12 @@ export default function Navbar() {
           ))}
         </ul>
 
-        <div className="flex flex-col cursor-pointer">
+        <a className="flex flex-col cursor-pointer" href="tel:600560031">
           <p className="text-sm font-semibold text-right font-ui leading-[0.78]">CALL US</p>
           <p className="text-[#3A9D5D] font-primary text-xl tracking-[0.2rem] font-extrabold">
             600560031
           </p>
-        </div>
+        </a>
       </div>
     </nav>
   );

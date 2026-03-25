@@ -21,7 +21,7 @@ export default function Promo() {
             Promo & Deals
           </h2>
           <a
-            href="/promos"
+            href="/menu"
             aria-label="Explore all House of Inasal promos and deals"
             className="flex items-center gap-1.5 cursor-pointer"
           >
