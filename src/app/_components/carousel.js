@@ -53,10 +53,27 @@ export default function Carousel() {
       </Swiper>
 
       <div className="w-full flex flex-col items-center font-heading absolute top-[43%] left-1/2 -translate-x-1/2 -translate-y-1/2 text-white z-20 text-center">
-        <h1 className="text-[5.375rem] text-[#EAECEF] [text-shadow:0px_0px_30px_rgba(0,0,0,0.57)]">
+        <h1
+          className="
+        md:text-[5.375rem]
+        md:leading-snug
+        md:font-normal
+        font-bold
+        leading-tight
+        px-8 md:px-0 text-[64px] 
+        text-[#EAECEF] 
+        [text-shadow:0px_0px_30px_rgba(0,0,0,0.57)]"
+        >
           HOUSE OF INASAL
         </h1>
-        <p className="text-4xl text-[#EAECEF] mt-2 [text-shadow:0px_0px_30pxpx_rgba(0,0,0,0.57)]">
+        <p
+          className="
+        md:text-4xl 
+        text-[28px] 
+        text-[#EAECEF] 
+        mt-2 
+        [text-shadow:0px_0px_30pxpx_rgba(0,0,0,0.57)]"
+        >
           YOUR NEIGHBORHOOD GRILL
         </p>
       </div>
