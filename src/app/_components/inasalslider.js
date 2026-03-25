@@ -20,18 +20,18 @@ export default function InasalSlider() {
     },
     {
       src: '/images/3.png',
-      text: 'Halo-Halo',
-      alt: 'Extra Creamy Halo-Halo – House of Inasal signature dessert'
+      text: 'Banana con yelo',
+      alt: 'Banana con Yelo – classic Filipino shaved ice dessert at House of Inasal'
     },
     {
       src: '/images/4.png',
-      text: 'not yet',
-      alt: 'not yet'
+      text: 'Tofu Sisig',
+      alt: 'Tofu Sisig – plant-based sizzling sisig at House of Inasal'
     },
     {
       src: '/images/5.png',
-      text: 'not yet',
-      alt: 'not yet'
+      text: 'Chicken Katsu',
+      alt: 'Chicken Katsu – crispy breaded chicken cutlet at House of Inasal'
     }
   ];
 

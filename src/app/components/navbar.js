@@ -34,7 +34,7 @@ export default function Navbar() {
             <Link
               key={link.href}
               href={link.href}
-              className={`relative flex items-center after:absolute after:bottom-0 after:left-0 after:top-[38px] after:w-full after:h-[3px] after:transition-all after:duration-200 after:pointer-events-none
+              className={`relative flex items-center transition-colors duration-200 after:absolute after:bottom-0 after:left-0 after:top-[38px] after:w-full after:h-[3px] after:transition-all after:duration-200 after:pointer-events-none
                 ${
                   pathname === link.href
                     ? 'text-[#2C9751] after:bg-[#2C9751]'
