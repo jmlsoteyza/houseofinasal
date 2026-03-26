@@ -5,10 +5,8 @@ import { Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import Image from 'next/image';
-import { useMediaQuery } from 'react-responsive';
 
 export default function InasalSlider() {
-  const isMobile = useMediaQuery();
 
   const minicarouselimage = [
     {
