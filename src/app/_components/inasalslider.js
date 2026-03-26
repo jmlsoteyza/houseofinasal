@@ -20,7 +20,7 @@ export default function InasalSlider() {
     },
     {
       src: '/images/3.png',
-      text: 'Banana con yelo',
+      text: 'Halo-halo',
       alt: 'Banana con Yelo – classic Filipino shaved ice dessert at House of Inasal'
     },
     {
@@ -36,7 +36,10 @@ export default function InasalSlider() {
   ];
 
   return (
-    <section aria-labelledby="bestseller-heading" className="max-w-[1205px] w-full my-18 mx-auto">
+    <section
+      aria-labelledby="bestseller-heading"
+      className="max-w-[1205px] w-full my-18 mx-auto max-[1200px]:px-8"
+    >
       {/* Section Header */}
       <header>
         <p className="text-sm tracking-widest font-ui uppercase text-gray-500">Our Best Seller</p>
@@ -46,30 +49,53 @@ export default function InasalSlider() {
       </header>
 
       {/* Carousel */}
-      <div className="w-full mt-4 px-2 overflow-visible">
+      <div className="w-full mt-4 overflow-visible">
         <div role="region" aria-label="Inasal Favorites carousel">
           <Swiper
             modules={[Navigation]}
-            spaceBetween={80}
-            slidesPerView={4}
-            slidesPerGroup={1}
+            className="relative"
             navigation
+            observer={true}
+            observeParents={true}
             loop
+            slidesPerView={4}
+            spaceBetween={80}
+            breakpoints={{
+              0: {
+                slidesPerView: 1,
+                spaceBetween: 20
+              },
+              600: {
+                slidesPerView: 2,
+                spaceBetween: 30
+              },
+              800: {
+                slidesPerView: 3,
+                spaceBetween: 30
+              },
+              1100: {
+                slidesPerView: 4,
+                spaceBetween: 80
+              }
+            }}
           >
             {minicarouselimage.map((item, index) => (
               <SwiperSlide key={index}>
-                <figure className="flex flex-col items-center w-[225px] relative">
-                  <div className="w-[225px] h-[225px] overflow-hidden">
+                <figure className="flex flex-col items-center w-full relative">
+                  {/* Image container (responsive square) */}
+                  <div className="relative w-full overflow-hidden">
                     <Image
-                      className="rounded-xl object-cover"
                       src={item.src}
                       alt={item.alt}
-                      width={225}
-                      height={225}
+                      width={400}
+                      height={400}
+                      className="object-cover rounded-xl"
                     />
                   </div>
-                  <figcaption className="absolute bottom-1.5 left-1/2 -translate-x-1/2 rounded-lg">
-                    <span className="inline-block bg-black/20 text-xs px-1 py-1 rounded text-white font-semibold text-sm uppercase text-center">
+
+                  {/* Label */}
+                  <figcaption className="absolute bottom-2 left-1/2 -translate-x-1/2">
+                    <span className="block bg-black/30 backdrop-blur-sm text-white text-xs px-3 py-1 rounded font-semibold uppercase w-full text-center line-clamp-2 leading-tight">
                       {item.text}
                     </span>
                   </figcaption>
