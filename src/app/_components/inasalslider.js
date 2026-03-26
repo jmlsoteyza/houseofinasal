@@ -5,8 +5,11 @@ import { Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import Image from 'next/image';
+import { useMediaQuery } from 'react-responsive';
 
 export default function InasalSlider() {
+  const isMobile = useMediaQuery();
+
   const minicarouselimage = [
     {
       src: '/images/1.png',
@@ -38,7 +41,7 @@ export default function InasalSlider() {
   return (
     <section
       aria-labelledby="bestseller-heading"
-      className="max-w-[1205px] w-full my-18 mx-auto max-[1200px]:px-8"
+      className="max-w-[1205px] w-full mt-14 mb-16 mx-auto max-[1200px]:px-8"
     >
       {/* Section Header */}
       <header>

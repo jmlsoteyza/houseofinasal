@@ -27,7 +27,7 @@ export default function Navbar() {
             className="rounded-sm"
           />
         </Link>
-
+        {/* #2d9751 */}
         {/* Desktop links */}
         <ul className="hidden lg:flex gap-12 text-[#000] font-medium font-ui text-sm">
           {links.map((link) => (
@@ -37,8 +37,8 @@ export default function Navbar() {
               className={`relative flex items-center transition-colors duration-200 after:absolute after:bottom-0 after:left-0 after:top-[38px] after:w-full after:h-[3px] after:transition-all after:duration-200 after:pointer-events-none
                 ${
                   pathname === link.href
-                    ? 'text-[#2C9751] after:bg-[#2C9751]'
-                    : 'text-black hover:text-[#2C9751] after:bg-transparent hover:after:bg-[#2C9751]'
+                    ? 'text-[#2d9751] after:bg-[#2d9751]'
+                    : 'text-black hover:text-[#2d9751] after:bg-transparent hover:after:bg-[#2d9751]'
                 }`}
             >
               {link.label}
