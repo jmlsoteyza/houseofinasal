@@ -7,7 +7,6 @@ import 'swiper/css/navigation';
 import Image from 'next/image';
 
 export default function InasalSlider() {
-
   const minicarouselimage = [
     {
       src: '/images/1.png',
@@ -54,7 +53,28 @@ export default function InasalSlider() {
         <div role="region" aria-label="Inasal Favorites carousel">
           <Swiper
             modules={[Navigation]}
-            className="relative"
+            style={{ '--swiper-navigation-color': '#fff' }}
+            className="
+            relative
+            [&_.swiper-button-next]:bg-[#1A773E]
+            [&_.swiper-button-prev]:bg-[#1A773E]
+            [&_.swiper-button-next]:hover:bg-[#176F2A]
+            [&_.swiper-button-prev]:hover:bg-[#176F2A]
+            [&_.swiper-button-next]:duration-200
+            [&_.swiper-button-prev]:duration-200
+            [&_.swiper-button-next]:rounded-full
+            [&_.swiper-button-prev]:rounded-full
+            [&_.swiper-button-next_svg]:scale-50
+            [&_.swiper-button-prev_svg]:scale-50
+            [&_.swiper-button-next]:!w-8
+            [&_.swiper-button-next]:!h-8
+            [&_.swiper-button-prev]:!w-8
+            [&_.swiper-button-prev]:!h-8
+            [&_.swiper-button-next]:ring-1
+            [&_.swiper-button-next]:ring-white
+            [&_.swiper-button-prev]:ring-1
+            [&_.swiper-button-prev]:ring-white
+  "
             navigation
             observer={true}
             observeParents={true}
@@ -72,7 +92,7 @@ export default function InasalSlider() {
               },
               800: {
                 slidesPerView: 3,
-                spaceBetween: 30
+                spaceBetween: 45
               },
               1100: {
                 slidesPerView: 4,
