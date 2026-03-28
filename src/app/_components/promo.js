@@ -45,14 +45,14 @@ export default function Promo() {
             <figure
               key={index}
               className={[
-                'overflow-hidden rounded-lg',
+                'overflow-hidden',
                 'flex-1 lg:max-w-[368px]',
                 index === 0 ? 'block' : 'hidden md:block',
                 index === 2 ? 'md:hidden lg:block' : ''
               ].join(' ')}
             >
               <Image
-                className="object-cover w-full h-auto"
+                className="object-cover w-full h-auto rounded-lg"
                 src={item.src}
                 width={368}
                 height={600}
