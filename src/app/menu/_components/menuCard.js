@@ -14,8 +14,6 @@ export default function MenuCard({ item }) {
             alt={alt}
             width={225}
             height={225}
-            placeholder="blur"
-            blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
             className={`w-full h-full ${isObjectFit ? 'object-none' : 'object-cover'}`}
           />
         </div>
