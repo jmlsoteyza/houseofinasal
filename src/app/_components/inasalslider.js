@@ -38,7 +38,10 @@ export default function InasalSlider() {
   return (
     <section
       aria-labelledby="bestseller-heading"
-      className="max-w-[1205px] w-full mt-14 mb-16 mx-auto max-[1200px]:px-8"
+      className="max-w-[1205px] w-full mt-14 mb-16 mx-auto 
+      max-[1200px]:px-8
+      max-md:px-5
+      "
     >
       {/* Section Header */}
       <header>

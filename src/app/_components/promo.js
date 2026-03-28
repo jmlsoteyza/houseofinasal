@@ -15,7 +15,11 @@ export default function Promo() {
 
   return (
     <section aria-labelledby="promo-heading" className="bg-[#1b7a40] w-full py-16">
-      <div className="px-6 max-w-[78.125rem] w-full mx-auto">
+      <div
+        className="px-6 max-w-[78.125rem] w-full mx-auto
+      max-md:px-5
+      "
+      >
         <div className="inline-flex items-center justify-between w-full mb-2">
           <h2 id="promo-heading" className="text-[#FFFD34] font-heading text-heading">
             Promo & Deals
