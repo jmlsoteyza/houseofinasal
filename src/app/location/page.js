@@ -17,8 +17,12 @@ export default function Location() {
   ];
   return (
     <section className="w-full">
-      <div className="h-[250px] w-full bg-green-800">Save this later</div>
-
+      <div className="relative h-[250px] w-full">
+        <Image src="/images/background.jpg" fill alt="background" className="object-cover" />
+        <div className="absolute inset-0 flex items-center justify-center z-10">
+          <h1 className="text-white text-4xl font-bold font-ui">Location</h1>
+        </div>
+      </div>
       <section className="px-6 py-6 my-24 mx-auto rounded-lg max-w-[1260px] shadow-[0_0_10px_0_rgba(0,0,0,.1)] lg:py-10 lg:px-8">
         <div className="flex flex-col-reverse gap-12 lg:flex-row">
           {/* map */}

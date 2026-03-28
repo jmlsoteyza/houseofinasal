@@ -4,6 +4,7 @@ import MenuCard from './_components/menuCard';
 import SideBar from './_components/sideBar';
 import { menu, tabs } from './_components/menuData';
 import { useState } from 'react';
+import Image from 'next/image';
 
 export default function Menu() {
   const [activeTab, setActiveTab] = useState(tabs[0]);
@@ -24,7 +25,12 @@ export default function Menu() {
 
   return (
     <section>
-      <div className="h-[250px] w-full bg-green-800 mb-8">Save this later</div>
+      <div className="relative h-[250px] w-full">
+        <Image src="/images/background.jpg" fill alt="background" className="object-cover" />
+        <div className="absolute inset-0 flex items-center justify-center z-10">
+          <h1 className="text-white text-4xl font-bold font-ui">Menu</h1>
+        </div>
+      </div>
       <section className="max-w-[1250px] w-full min-h-screen mx-auto flex flex-col px-6 mb-10 mt-12">
         <div className="w-full lg:flex">
           <div className="w-48 shrink-0 flex hidden lg:block" />
