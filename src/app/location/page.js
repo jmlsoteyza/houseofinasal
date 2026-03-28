@@ -23,7 +23,7 @@ export default function Location() {
           <h1 className="text-white text-4xl font-bold font-ui">Location</h1>
         </div>
       </div>
-      <section className="px-6 py-6 my-24 mx-auto rounded-lg max-w-[1260px] shadow-[0_0_10px_0_rgba(0,0,0,.1)] lg:py-10 lg:px-8">
+      <section className="px-6 py-6 my-14 mx-auto rounded-lg max-w-[1260px] shadow-[0_0_10px_0_rgba(0,0,0,.1)] lg:py-10 lg:px-8">
         <div className="flex flex-col-reverse gap-12 lg:flex-row">
           {/* map */}
           <div className="rounded-sm">
