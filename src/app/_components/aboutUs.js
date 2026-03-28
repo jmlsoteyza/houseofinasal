@@ -9,18 +9,19 @@ export default function AboutUs() {
         </h2>
 
         <div className="flex gap-8 w-full max-[1200px]:flex-col">
-          <div className="overflow-hidden rounded-sm shrink-0">
+          <div className="overflow-hidden rounded-sm shrink-0 w-full max-w-[575px] max-[1200px]:max-w-full">
             <Image
               src="/images/abt.png"
               width={575}
               height={400}
               alt="House of Inasal restaurant – serving authentic Filipino grilled meals"
-              className="object-cover"
+              className="object-cover rounded-sm w-full h-auto"
+              sizes="(max-width: 1200px) 100vw, 575px"
               priority
             />
           </div>
 
-          <article className="flex-1 font-ui py-4 px-4 w-min font-light w-full">
+          <article className="flex-1 font-ui py-4 px-4 font-light">
             <p className="mb-6">
               House of Inasal is your local Grill Expert, loved for its Ihaw-Sarap (deliciously
               grilled) meals and Unli-Saya (unlimited fun) dining experience that brings people
@@ -45,27 +46,29 @@ export default function AboutUs() {
               updated on our newest products, exclusive promos, and exciting announcements!
             </p>
             <div className="pt-2">
-              <button
-                aria-label="Learn more about House of Inasal"
-                className="py-3 px-6 bg-[#2d9751] text-white rounded-sm flex items-center gap-2 cursor-pointer hover:bg-[#06481F] transition-colors duration-500"
-              >
-                <span className="text-sm font-ui font-medium">Learn More</span>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="3.5"
-                  stroke="white"
-                  className="size-4"
-                  aria-hidden="true"
+              <a href="/location">
+                <button
+                  aria-label="Learn more about House of Inasal"
+                  className="py-3 px-6 bg-[#2d9751] text-white rounded-sm flex items-center gap-2 cursor-pointer hover:bg-[#06481F] transition-colors duration-500"
                 >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="m8.25 4.5 7.5 7.5-7.5 7.5"
-                  />
-                </svg>
-              </button>
+                  <span className="text-sm font-ui font-medium">Learn More</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="3.5"
+                    stroke="white"
+                    className="size-4"
+                    aria-hidden="true"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                    />
+                  </svg>
+                </button>
+              </a>
             </div>
           </article>
         </div>
