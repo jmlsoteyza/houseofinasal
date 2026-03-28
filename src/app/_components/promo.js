@@ -42,12 +42,21 @@ export default function Promo() {
         <p className="text-white font-ui mb-5">Treat yourself to our delicious promos and meals!</p>
         <div className="flex justify-between gap-12">
           {promoimage.map((item, index) => (
-            <figure key={index} className="overflow-hidden rounded-lg w-[368px] h-[606px]">
+            <figure
+              key={index}
+              className={[
+                'overflow-hidden rounded-lg',
+                'flex-1 lg:max-w-[368px]',
+                index === 0 ? 'block' : 'hidden md:block',
+                index === 2 ? 'md:hidden lg:block' : ''
+              ].join(' ')}
+            >
               <Image
-                className="object-cover"
+                className="object-cover w-full h-auto"
                 src={item.src}
                 width={368}
-                height={606}
+                height={600}
+                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 368px"
                 alt={item.alt}
               />
             </figure>
