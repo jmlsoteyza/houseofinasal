@@ -1,6 +1,7 @@
 import Image from 'next/image';
 
 export default function AboutUs() {
+  // #ddf5db - save color for now
   return (
     <section aria-labelledby="about-heading" className="py-16 bg-[#fff]">
       <div
