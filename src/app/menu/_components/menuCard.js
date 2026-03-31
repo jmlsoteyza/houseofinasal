@@ -17,7 +17,7 @@ export default function MenuCard({ item }) {
         />
       </div>
 
-      <div className="px-3">
+      <div className="px-2">
         <p className={`font-medium text-normal ${isTextLong ? 'mt-2' : 'mt-4'}`}>{name}</p>
         {label && <p className="text-xs text-gray-500 mt-2">{label}</p>}
         <p className={`text-sm font-medium ${!label ? 'mt-8' : 'mt-2'}`}>
