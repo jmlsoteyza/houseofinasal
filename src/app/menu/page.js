@@ -31,7 +31,7 @@ export default function Menu() {
           <h1 className="text-white text-4xl font-bold font-ui">Menu</h1>
         </div>
       </div>
-      <section className="max-w-[1250px] w-full min-h-screen mx-auto flex flex-col px-6 mb-10 mt-12">
+      <section className="max-w-[1250px] w-full min-h-screen mx-auto flex flex-col px-6 my-14">
         <div className="w-full lg:flex">
           <div className="w-48 shrink-0 flex hidden lg:block" />
           {/* spacer matching sidebar width */}
