@@ -18,8 +18,9 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 w-full bg-white shadow-[0px_0px_10px_0px_rgba(0,0,0,0.5)] z-50">
       <div
-        className="max-w-[78.125rem] mx-auto flex items-center px-6 py-3 justify-between
+        className="max-w-[78.125rem] mx-auto flex items-center px-6 py-3 
       max-md:px-5
+      relative
       "
       >
         <Link href="/" className="cursor-pointer max-w-[163px]">
@@ -34,7 +35,7 @@ export default function Navbar() {
         </Link>
         {/* #2d9751 */}
         {/* Desktop links */}
-        <ul className="hidden lg:flex gap-12 text-[#000] font-medium font-ui text-sm">
+        <ul className="hidden lg:flex gap-12 text-[#000] font-medium font-ui text-sm absolute left-1/2 -translate-x-1/2">
           {links.map((link) => (
             <Link
               key={link.href}
@@ -52,12 +53,21 @@ export default function Navbar() {
         </ul>
 
         {/* Desktop call */}
-        <a href="tel:600560031" className="hidden lg:flex flex-col cursor-pointer">
-          <p className="text-sm font-semibold text-right font-ui leading-[0.78]">CALL US</p>
-          <p className="text-[#3A9D5D] font-primary text-xl tracking-[0.2rem] font-extrabold">
-            600560031
-          </p>
-        </a>
+        <div className="flex flex-row gap-8 items-center ml-auto">
+          <a href="tel:600560031" className="hidden lg:flex flex-col cursor-pointer pt-2">
+            <p className="text-sm font-semibold text-right font-ui leading-[0.78]">CALL US</p>
+            <p className="text-[#3A9D5D] font-primary text-xl tracking-[0.2rem] font-extrabold">
+              600560031
+            </p>
+          </a>
+          <a
+            className="py-3 px-4 text-xs text-white bg-green-700 rounded-sm font-semibold hover:bg-[#06481F] transition-colors duration-500 max-[1025px]:hidden
+          "
+            href="https://www.talabat.com/uae/restaurant/763104/house-of-inasal-al-nahda?aid=1518"
+          >
+            <button className="cursor-pointer">Order Now</button>
+          </a>
+        </div>
 
         {/* Mobile hamburger */}
         <button
