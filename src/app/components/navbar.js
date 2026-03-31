@@ -29,6 +29,7 @@ export default function Navbar() {
             width={163}
             height={59}
             className="rounded-sm w-full h-auto"
+            quality={100}
           />
         </Link>
         {/* #2d9751 */}
