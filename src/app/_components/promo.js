@@ -3,12 +3,12 @@ import Image from 'next/image';
 export default function Promo() {
   const promoimage = [
     {
-      src: '/images/promo1.png',
+      src: '/images/promo1.webp',
       alt: 'House of Inasal promo – discounted Chicken Inasal meal deal'
     },
-    { src: '/images/promo2.png', alt: 'House of Inasal promo – exclusive Pork BBQ combo offer' },
+    { src: '/images/promo2.webp', alt: 'House of Inasal promo – exclusive Pork BBQ combo offer' },
     {
-      src: '/images/promo3.png',
+      src: '/images/promo3.webp',
       alt: 'House of Inasal promo – limited time Halo-Halo and meal bundle'
     }
   ];
