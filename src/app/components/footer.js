@@ -84,11 +84,11 @@ export default function Footer() {
         <div className="flex flex-col gap-4">
           <Link href="/" className="max-w-[165px]">
             <Image
-              src="/images/logo.svg"
+              src="/images/logo.webp"
               alt="hof-logo"
               width={165}
               height={59}
-              className="rounded-sm cursor-pointer"
+              className="rounded-sm cursor-pointer w-full h-auto"
             />
           </Link>
           {/* Social icons */}

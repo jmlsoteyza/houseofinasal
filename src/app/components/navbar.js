@@ -17,16 +17,18 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-0 left-0 w-full bg-white shadow-[0px_0px_10px_0px_rgba(0,0,0,0.5)] z-50">
-      <div className="max-w-[78.125rem] mx-auto flex items-center px-6 py-3 justify-between
+      <div
+        className="max-w-[78.125rem] mx-auto flex items-center px-6 py-3 justify-between
       max-md:px-5
-      ">
-        <Link href="/" className="cursor-pointer">
+      "
+      >
+        <Link href="/" className="cursor-pointer max-w-[163px]">
           <Image
-            src="/images/logo.svg"
+            src="/images/logo.webp"
             alt="hof-logo"
             width={163}
             height={59}
-            className="rounded-sm"
+            className="rounded-sm w-full h-auto"
           />
         </Link>
         {/* #2d9751 */}
