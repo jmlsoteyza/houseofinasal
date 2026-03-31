@@ -137,7 +137,7 @@ export const menu = [
   {
     name: 'Bulalo',
     price: 28,
-    image: '/menuImages/fc-bulalo.webp',
+    image: '/menuImages/fc-bulalo1.webp',
     alt: 'Filipino bulalo beef bone marrow soup served with rice',
     tabs: ['Full Menu', 'Filipino Classics'],
     label: 'Served with rice 🔥'
@@ -234,6 +234,14 @@ export const menu = [
     tabs: ['Full Menu', 'Small Bites'],
     label: 'Beef, chicken, or bangus · 3 pcs'
   },
+  {
+    name: 'Isaw',
+    price: 12,
+    image: '/menuImages/isaw.webp',
+    alt: 'Filipino isaw grilled chicken intestine skewers',
+    tabs: ['Full Menu', 'Small Bites'],
+    label: 'Grilled chicken intestine skewers 🔥'
+  },
 
   // Desserts
   {
@@ -252,14 +260,14 @@ export const menu = [
     tabs: ['Full Menu', 'Desserts'],
     label: 'Sweet banana with shaved ice & milk'
   },
-  // {
-  //   name: 'Halo Halo',
-  //   price: 15,
-  //   image: 'none yet',
-  //   alt: 'Filipino halo halo mixed shaved ice dessert',
-  //   tabs: ['Full Menu', 'Desserts'],
-  //   label: 'Mixed fruits, jellies & shaved ice 🍧'
-  // },
+  {
+    name: 'Halo Halo',
+    price: 15,
+    image: '/menuImages/ds-halo-halo.png',
+    alt: 'Filipino halo halo mixed shaved ice dessert',
+    tabs: ['Full Menu', 'Desserts'],
+    label: 'Mixed fruits, jellies & shaved ice 🍧'
+  },
   {
     name: 'Bibingka',
     price: 12,
@@ -275,13 +283,13 @@ export const menu = [
     alt: 'Filipino coffee jelly dessert with cream',
     tabs: ['Full Menu', 'Desserts'],
     label: 'Coffee jelly in sweet cream'
+  },
+  {
+    name: 'Leche Flan',
+    price: 12,
+    image: '/menuImages/ds-leche-flan.webp',
+    alt: 'Filipino leche flan caramel custard dessert',
+    tabs: ['Full Menu', 'Desserts'],
+    label: 'Silky smooth caramel custard'
   }
-  // {
-  //   name: 'Leche Flan',
-  //   price: 12,
-  //   image: 'none yet',
-  //   alt: 'Filipino leche flan caramel custard dessert',
-  //   tabs: ['Full Menu', 'Desserts'],
-  //   label: 'Silky smooth caramel custard'
-  // }
 ];
