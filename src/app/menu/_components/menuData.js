@@ -1,9 +1,9 @@
 export const tabs = [
   'Full Menu',
   'Inasal Specials',
+  'Combo Meals',
   'Sisig',
   'Silog',
-  'Combo Meals',
   'Filipino Classics',
   'Small Bites',
   'Desserts'

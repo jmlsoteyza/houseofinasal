@@ -45,10 +45,10 @@ export default function InasalSlider() {
     >
       {/* Section Header */}
       <header>
-        <p className="text-sm tracking-widest font-ui uppercase text-gray-500">Our Best Seller</p>
-        <h2 id="bestseller-heading" className="text-primary-heading font-heading text-heading">
+        <h2 id="bestseller-heading" className="text-primary-heading font-heading text-heading pb-2">
           Inasal Favorites
         </h2>
+        <p className="text-sm tracking-widest font-ui uppercase text-gray-500">Our Best Seller</p>
       </header>
 
       {/* Carousel */}
