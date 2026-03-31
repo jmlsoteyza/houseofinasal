@@ -137,7 +137,7 @@ export const menu = [
   {
     name: 'Bulalo',
     price: 28,
-    image: '/menuImages/fc-bulalo1.webp',
+    image: '/menuImages/fc-bulalo.webp',
     alt: 'Filipino bulalo beef bone marrow soup served with rice',
     tabs: ['Full Menu', 'Filipino Classics'],
     label: 'Served with rice 🔥'
@@ -153,7 +153,7 @@ export const menu = [
   {
     name: 'Beef Pares',
     price: 20,
-    image: '/menuImages/fc-beef-pares.webp',
+    image: '/menuImages/fc-beef-pares1.webp',
     alt: 'Filipino beef pares braised beef served with rice',
     tabs: ['Full Menu', 'Filipino Classics'],
     label: 'Served with rice 🔥'
