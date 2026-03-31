@@ -56,7 +56,9 @@ export default function Menu() {
             </div>
             {/* tabs mobile version */}
 
-            <p className="text-2xl font-ui font-medium px-6 hidden lg:block">{activeTab}</p>
+            <h2 className="text-2xl font-ui font-medium px-6 pb-1 hidden lg:block text-[">
+              {activeTab}
+            </h2>
           </div>
         </div>
         <div className="flex w-full">
@@ -65,7 +67,9 @@ export default function Menu() {
           <div
             className={`${
               visible ? 'fade-in' : 'fade-out'
-            } flex-1 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 px-6 py-4 gap-8 auto-rows-[355px]`}
+            } flex-1 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 px-6 py-4 gap-8 auto-rows-[355px]
+            max-md:px-0
+            `}
           >
             {filtered.map((item) => (
               <MenuCard key={item.name} item={item} />
