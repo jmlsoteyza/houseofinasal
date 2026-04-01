@@ -12,6 +12,7 @@ export const tabs = [
 export const menu = [
   // Inasal Specials
   {
+    id: 1,
     name: 'Inasal Pecho',
     price: 28,
     image: '/menuImages/inasal-pecho.webp',
@@ -21,6 +22,7 @@ export const menu = [
     description: ''
   },
   {
+    id: 2,
     name: 'Inasal Paa',
     price: 27,
     image: '/menuImages/inasal-paa.webp',
@@ -30,6 +32,7 @@ export const menu = [
     description: ''
   },
   {
+    id: 3,
     name: 'Grilled Bangus',
     price: 32,
     image: '/menuImages/inasal-grilled-bangus2.webp',
@@ -40,6 +43,7 @@ export const menu = [
 
   // Combo Meals
   {
+    id: 4,
     name: 'Inasal Duo Combo',
     price: 45,
     image: '/menuImages/inasal-duo.webp',
@@ -48,6 +52,7 @@ export const menu = [
     label: 'Unlimited rice 🔥, 2 inasal, 1 side, 1 drink'
   },
   {
+    id: 5,
     name: 'Inasal Halo Combo',
     price: 39,
     image: '/menuImages/inasal-halo.webp',
@@ -56,6 +61,7 @@ export const menu = [
     label: 'Unlimited rice 🔥, 1 inasal, 1 side, 1 drink, 1 dessert'
   },
   {
+    id: 6,
     name: 'Silog Supreme Combo',
     price: 28,
     image: '/menuImages/silog-supreme.webp',
@@ -64,6 +70,7 @@ export const menu = [
     label: 'Unlimited rice 🔥, 1 sisig or silog, 1 side, 1 drink'
   },
   {
+    id: 7,
     name: 'Silog Halo Combo',
     price: 34,
     image: '/menuImages/silog-halo.webp',
@@ -74,6 +81,7 @@ export const menu = [
 
   // Sisig
   {
+    id: 8,
     name: 'Beef Sisig',
     price: 22,
     image: '/menuImages/sisig-beef.webp',
@@ -82,6 +90,7 @@ export const menu = [
     label: 'Served on a sizzling plate 🔥'
   },
   {
+    id: 9,
     name: 'Chicken Sisig',
     price: 22,
     image: '/menuImages/sisig-chicken.webp',
@@ -90,6 +99,7 @@ export const menu = [
     label: 'Served on a sizzling plate 🔥'
   },
   {
+    id: 10,
     name: 'Bangus Sisig',
     price: 22,
     image: '/menuImages/sisig-bangus.webp',
@@ -98,6 +108,7 @@ export const menu = [
     label: 'Served on a sizzling plate 🔥'
   },
   {
+    id: 11,
     name: 'Tofu Sisig',
     price: 22,
     image: '/menuImages/sisig-tofu.webp',
@@ -109,6 +120,7 @@ export const menu = [
 
   // Silog
   {
+    id: 12,
     name: 'Tapsilog',
     price: 22,
     image: '/menuImages/silog-tapa.webp',
@@ -117,6 +129,7 @@ export const menu = [
     label: 'Sweet & savory cured beef'
   },
   {
+    id: 13,
     name: 'Bangsilog',
     price: 22,
     image: '/menuImages/silog-bang.webp',
@@ -125,6 +138,7 @@ export const menu = [
     label: 'Freshly grilled milkfish'
   },
   {
+    id: 14,
     name: 'Longsilog',
     price: 22,
     image: '/menuImages/silog-long.webp',
@@ -135,6 +149,7 @@ export const menu = [
 
   // Filipino Classics
   {
+    id: 15,
     name: 'Bulalo',
     price: 28,
     image: '/menuImages/fc-bulalo.webp',
@@ -142,15 +157,8 @@ export const menu = [
     tabs: ['Full Menu', 'Filipino Classics'],
     label: 'Served with rice 🔥'
   },
-  // {
-  //   name: 'Kansi',
-  //   price: 28,
-  //   image: 'none yet',
-  //   alt: 'Filipino kansi sour beef bone marrow soup served with rice',
-  //   tabs: ['Full Menu', 'Filipino Classics'],
-  //   label: 'Served with rice 🔥'
-  // },
   {
+    id: 16,
     name: 'Beef Pares',
     price: 20,
     image: '/menuImages/fc-beef-pares1.webp',
@@ -159,6 +167,7 @@ export const menu = [
     label: 'Served with rice 🔥'
   },
   {
+    id: 17,
     name: 'Laing',
     price: 20,
     image: '/menuImages/fc-laing1.webp',
@@ -167,6 +176,7 @@ export const menu = [
     label: 'Served with rice 🔥'
   },
   {
+    id: 18,
     name: 'Chicken Katsu',
     price: 28,
     image: '/menuImages/fc-chicken-katsu.webp',
@@ -175,6 +185,7 @@ export const menu = [
     label: 'Gravy, teriyaki, or curry · Free lemonade or iced tea'
   },
   {
+    id: 19,
     name: 'Palabok',
     price: 20,
     image: '/menuImages/fc-palabok1.webp',
@@ -183,6 +194,7 @@ export const menu = [
     label: 'Smothered in savory shrimp sauce 🍤'
   },
   {
+    id: 20,
     name: 'Bihon',
     price: 20,
     image: '/menuImages/fc-bihon1.webp',
@@ -191,6 +203,7 @@ export const menu = [
     label: 'Light & savory stir-fried noodles'
   },
   {
+    id: 21,
     name: 'Spaghetti',
     price: 20,
     image: '/menuImages/fc-spaghetti1.webp',
@@ -198,27 +211,10 @@ export const menu = [
     tabs: ['Full Menu', 'Filipino Classics'],
     label: 'Sweet & cheesy Filipino style 🧀'
   },
-  // {
-  //   name: 'Seafood Cajun',
-  //   price: null,
-  //   image: 'none yet',
-  //   alt: 'Seafood cajun dish coming soon',
-  //   tabs: ['Full Menu', 'Filipino Classics'],
-  //   label: 'TBC',
-  //   description: ''
-  // },
-  // {
-  //   name: 'Siomai',
-  //   price: null,
-  //   image: 'none yet',
-  //   alt: 'Filipino siomai dumplings coming soon',
-  //   tabs: ['Full Menu', 'Filipino Classics'],
-  //   label: 'TBC',
-  //   description: ''
-  // },
 
   // Small Bites
   {
+    id: 22,
     name: 'Lumpiang Togue',
     price: 12,
     image: '/menuImages/lumpiang-toge.webp',
@@ -227,6 +223,7 @@ export const menu = [
     label: 'Crispy bean sprout spring rolls · 3 pcs'
   },
   {
+    id: 23,
     name: 'Sisig Lumpia',
     price: 12,
     image: '/menuImages/sisig-lumpia.webp',
@@ -235,6 +232,7 @@ export const menu = [
     label: 'Beef, chicken, or bangus · 3 pcs'
   },
   {
+    id: 24,
     name: 'Isaw',
     price: 12,
     image: '/menuImages/isaw.webp',
@@ -245,6 +243,7 @@ export const menu = [
 
   // Desserts
   {
+    id: 25,
     name: 'Turon with Langka',
     price: null,
     image: '/menuImages/ds-turon-with-langka.webp',
@@ -253,6 +252,7 @@ export const menu = [
     label: 'Crispy banana & jackfruit rolls · 3 pcs — TBC'
   },
   {
+    id: 26,
     name: 'Banana con Yelo',
     price: 15,
     image: '/menuImages/ds-babana-con-yelo1.webp',
@@ -261,6 +261,7 @@ export const menu = [
     label: 'Sweet banana with shaved ice & milk'
   },
   {
+    id: 27,
     name: 'Halo Halo',
     price: 15,
     image: '/menuImages/ds-halo-halo.png',
@@ -269,6 +270,7 @@ export const menu = [
     label: 'Mixed fruits, jellies & shaved ice 🍧'
   },
   {
+    id: 28,
     name: 'Bibingka',
     price: 12,
     image: '/menuImages/ds-bibingka.webp',
@@ -277,6 +279,7 @@ export const menu = [
     label: 'Soft & fluffy rice cake · 2 pcs'
   },
   {
+    id: 29,
     name: 'Coffee Jelly',
     price: 12,
     image: '/menuImages/ds-coffee-jelly1.webp',
@@ -285,6 +288,7 @@ export const menu = [
     label: 'Coffee jelly in sweet cream'
   },
   {
+    id: 30,
     name: 'Leche Flan',
     price: 12,
     image: '/menuImages/ds-leche-flan.webp',
