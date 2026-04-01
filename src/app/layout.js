@@ -2,6 +2,8 @@ import { Montserrat, Poetsen_One, Rubik } from 'next/font/google';
 import './globals.css';
 import Navbar from './components/navbar';
 import Footer from './components/footer';
+import { SpeedInsights } from '@vercel/speed-insights/next';
+import { Analytics } from '@vercel/analytics/next';
 
 const montserrat = Montserrat({
   subsets: ['latin'],
@@ -37,6 +39,10 @@ export default function RootLayout({ children }) {
         {/* py - means here is about exact spacing between the navbar and the children (height) */}
         <main className="pt-[4.656rem]">{children}</main>
         <Footer />
+        {/* Vercel Speed Insights - tracks performance metrics (LCP, FID, CLS) */}
+        <SpeedInsights />
+        {/* Vercel Analytics - tracks page views and visitor data */}
+        <Analytics />
       </body>
     </html>
   );
