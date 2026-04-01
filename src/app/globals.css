@@ -67,12 +67,10 @@ body {
   from {
     opacity: 0;
     transform: translateY(14px);
-    filter: blur(2px);
   }
   to {
     opacity: 1;
     transform: translateY(0);
-    filter: blur(0);
   }
 }
 
@@ -80,11 +78,9 @@ body {
   from {
     opacity: 1;
     transform: translateY(0);
-    filter: blur(0);
   }
   to {
     opacity: 0;
     transform: translateY(-6px);
-    filter: blur(2px);
   }
 }

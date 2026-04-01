@@ -10,6 +10,7 @@ export default function Menu() {
   const [activeTab, setActiveTab] = useState(tabs[0]);
   const [displayTab, setDisplayTab] = useState(tabs[0]);
   const [visible, setVisible] = useState(true);
+  const [loadedImages, setLoadedImages] = useState({});
 
   const filtered = menu.filter((item) => item.tabs.includes(displayTab));
 
@@ -68,11 +69,16 @@ export default function Menu() {
             className={`${
               visible ? 'fade-in' : 'fade-out'
             } flex-1 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 px-6 py-4 gap-8 auto-rows-[355px]
-            max-md:px-0
-            `}
+  max-md:px-0
+  `}
           >
             {filtered.map((item) => (
-              <MenuCard key={item.name} item={item} />
+              <MenuCard
+                key={item.id}
+                item={item}
+                isPreloaded={!!loadedImages[item.id]}
+                onLoaded={() => setLoadedImages((prev) => ({ ...prev, [item.id]: true }))}
+              />
             ))}
           </div>
         </div>

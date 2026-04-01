@@ -1,11 +1,17 @@
 'use client';
 
 import Image from 'next/image';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
-export default function MenuCard({ item }) {
+export default function MenuCard({ item, isPreloaded, onLoaded }) {
   const { name, price, label, image, alt, isObjectFit } = item;
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(!isPreloaded);
+
+  useEffect(() => {
+    if (isPreloaded) {
+      setIsLoading(false);
+    }
+  }, [isPreloaded]);
 
   const isTextLong = label.length >= 50;
 
@@ -23,7 +29,11 @@ export default function MenuCard({ item }) {
           className={`w-full h-full ${isObjectFit ? 'object-none' : 'object-cover'} ${
             isLoading ? 'opacity-0' : 'opacity-100'
           } transition-opacity duration-300`}
-          onLoad={() => setIsLoading(false)}
+          onLoad={() => {
+            setIsLoading(false);
+            onLoaded();
+          }}
+          loading="eager"
         />
       </div>
 
