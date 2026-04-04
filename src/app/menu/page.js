@@ -32,7 +32,7 @@ export default function Menu() {
           <h1 className="text-white text-4xl font-bold font-ui">Menu</h1>
         </div>
       </div>
-      <section className="max-w-[1250px] w-full min-h-screen mx-auto flex flex-col px-6 my-14">
+      <section className="max-w-[1250px] w-full min-h-screen mx-auto flex flex-col my-14">
         <div className="w-full lg:flex">
           <div className="w-48 shrink-0 flex hidden lg:block" />
           {/* spacer matching sidebar width */}
@@ -68,9 +68,10 @@ export default function Menu() {
           <div
             className={`${
               visible ? 'fade-in' : 'fade-out'
-            } flex-1 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 px-6 py-4 gap-8 auto-rows-[355px]
-  max-md:px-0
-  `}
+            } flex-1 grid grid-cols-3 px-6 py-4 gap-8 content-start
+  max-[1200px]:grid-cols-2
+  max-md:grid-cols-1
+  max-md:px-5`}
           >
             {filtered.map((item) => (
               <MenuCard
