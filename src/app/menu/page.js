@@ -62,7 +62,7 @@ export default function Menu() {
             </h2>
           </div>
         </div>
-        <div className="flex w-full">
+        <div className="flex w-full gap-3">
           <SideBar tabs={tabs} activeTab={activeTab} onTabChange={handleTabChange} />
           {/* add this to container when the image and menu data are finalized auto-rows-[360px] */}
           <div
