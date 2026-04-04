@@ -146,10 +146,10 @@ export default function Footer() {
             <li className="flex gap-2">
               <span>✉️</span>
               <a
-                href="mailto:houseofinasal@gmail.com"
+                href="mailto:info@houseofinasal.ae"
                 className="hover:text-yellow-400 transition-colors break-all"
               >
-                houseofinasal@gmail.com
+                info@houseofinasal.ae
               </a>
             </li>
             <li className="flex gap-2">

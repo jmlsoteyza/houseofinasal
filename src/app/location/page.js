@@ -58,7 +58,7 @@ export default function Location() {
                 <div>
                   <p className="text-sm mb-1 font-[500]">Contact</p>
                   <p className="text-md text-[#8e8e8e]">+971 600 560 031</p>
-                  <p className="text-md text-[#8e8e8e]">houseofinasal@gmail.com</p>
+                  <p className="text-md text-[#8e8e8e]">info@houseofinasal.ae</p>
                 </div>
                 <div>
                   <p className="text-sm mb-1 font-[500]">Services</p>
