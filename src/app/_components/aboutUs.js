@@ -72,7 +72,7 @@ export default function AboutUs() {
               <a
                 href="/location"
                 aria-label="Find House of Inasal location"
-                className="inline-flex items-center gap-2 py-3 px-6 bg-[#2d9751] text-white rounded-sm hover:bg-[#06481F] transition-colors duration-500"
+                className="inline-flex items-center gap-2 py-3 px-6 bg-[#2d9751] text-white rounded-md hover:bg-[#06481F] transition-colors duration-500"
               >
                 <span className="text-sm font-ui font-medium">Find Us</span>
                 <svg
