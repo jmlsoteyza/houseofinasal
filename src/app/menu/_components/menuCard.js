@@ -50,7 +50,7 @@ export default function MenuCard({ item, isPreloaded, onLoaded }) {
 
         <div className="mt-auto pt-5 pb-1 max-md:pb-0">
           <a
-            className="block py-3 text-sm text-white bg-[#2C9751] rounded-sm font-semibold text-center hover:bg-[#06481F] transition-colors duration-500"
+            className="block py-3 text-sm text-white bg-[#2C9751] rounded-md font-semibold text-center hover:bg-[#06481F] transition-colors duration-500"
             href="https://www.talabat.com/uae/restaurant/763104/house-of-inasal-al-nahda?aid=1518"
           >
             <button className="cursor-pointer">Order Now</button>

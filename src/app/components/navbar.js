@@ -61,7 +61,7 @@ export default function Navbar() {
             </p>
           </a>
           <a
-            className="py-3 px-4 text-xs text-white bg-green-700 rounded-sm font-semibold hover:bg-[#06481F] transition-colors duration-500 max-[1025px]:hidden
+            className="py-3 px-4 text-xs text-white bg-green-700 rounded-md font-semibold hover:bg-[#06481F] transition-colors duration-500 max-[1025px]:hidden
           "
             href="https://www.talabat.com/uae/restaurant/763104/house-of-inasal-al-nahda?aid=1518"
           >

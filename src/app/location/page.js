@@ -89,7 +89,7 @@ export default function Location() {
               rel="noopener
             noreferrer"
               className="mt-8 bg-[#27AE60] text-white text-sm font-semibold text-center
-            py-3 rounded-lg hover:bg-[#1a8a47] transition-colors duration-200"
+            py-3 rounded-md hover:bg-[#1a8a47] transition-colors duration-200"
             >
               Get Directions
             </a>
