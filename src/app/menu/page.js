@@ -32,7 +32,7 @@ export default function Menu() {
           <h1 className="text-white text-4xl font-bold font-ui">Menu</h1>
         </div>
       </div>
-      <section className="max-w-[1250px] w-full min-h-screen mx-auto flex flex-col my-14">
+      <section className="max-w-[1350px] w-full min-h-screen mx-auto flex flex-col my-14">
         <div className="w-full lg:flex">
           <div className="w-48 shrink-0 flex hidden lg:block" />
           {/* spacer matching sidebar width */}
@@ -57,18 +57,18 @@ export default function Menu() {
             </div>
             {/* tabs mobile version */}
 
-            <h2 className="text-2xl font-ui font-medium px-6 pb-1 hidden lg:block text-[">
+            <h2 className="text-2xl font-ui font-medium px-13 hidden lg:block text-[">
               {activeTab}
             </h2>
           </div>
         </div>
-        <div className="flex w-full gap-3">
+        <div className="flex w-full gap-2 px-2">
           <SideBar tabs={tabs} activeTab={activeTab} onTabChange={handleTabChange} />
           {/* add this to container when the image and menu data are finalized auto-rows-[360px] */}
           <div
             className={`${
               visible ? 'fade-in' : 'fade-out'
-            } flex-1 grid grid-cols-3 px-6 py-4 gap-8 content-start
+            } flex-1 grid grid-cols-3 py-4 px-6 gap-7 content-start
   max-[1200px]:grid-cols-2
   max-md:grid-cols-1
   max-md:px-5`}
