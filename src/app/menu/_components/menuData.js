@@ -14,7 +14,7 @@ export const menu = [
   {
     id: 1,
     name: 'Inasal Pecho',
-    price: 28,
+    price: 37,
     image: '/menuImages/inasal-pecho.webp',
     alt: 'Grilled chicken breast inasal served with unlimited rice',
     tabs: ['Full Menu', 'Inasal Specials'],
@@ -24,7 +24,7 @@ export const menu = [
   {
     id: 2,
     name: 'Inasal Paa',
-    price: 27,
+    price: 36,
     image: '/menuImages/inasal-paa.webp',
     alt: 'Grilled chicken leg inasal served with unlimited rice',
     tabs: ['Full Menu', 'Inasal Specials'],
@@ -45,7 +45,7 @@ export const menu = [
   {
     id: 4,
     name: 'Inasal Duo Combo',
-    price: 45,
+    price: 61,
     image: '/menuImages/inasal-duo.webp',
     alt: 'Inasal duo combo meal with 2 inasal, side dish and drink',
     tabs: ['Full Menu', 'Combo Meals'],
@@ -54,7 +54,7 @@ export const menu = [
   {
     id: 5,
     name: 'Inasal Halo Combo',
-    price: 39,
+    price: 53,
     image: '/menuImages/inasal-halo.webp',
     alt: 'Inasal halo combo meal with inasal, side, dessert and drink',
     tabs: ['Full Menu', 'Combo Meals'],
@@ -63,7 +63,7 @@ export const menu = [
   {
     id: 6,
     name: 'Silog Supreme Combo',
-    price: 28,
+    price: 38,
     image: '/menuImages/silog-supreme.webp',
     alt: 'Silog supreme combo with sisig or silog, side and drink',
     tabs: ['Full Menu', 'Combo Meals'],
@@ -72,7 +72,7 @@ export const menu = [
   {
     id: 7,
     name: 'Silog Halo Combo',
-    price: 34,
+    price: 46,
     image: '/menuImages/silog-halo.webp',
     alt: 'Silog halo combo with sisig or silog, dessert and drink',
     tabs: ['Full Menu', 'Combo Meals'],
@@ -122,7 +122,7 @@ export const menu = [
   {
     id: 12,
     name: 'Tapsilog',
-    price: 22,
+    price: 31,
     image: '/menuImages/silog-tapa.webp',
     alt: 'Tapsilog with tapa beef, sinangag fried rice and egg',
     tabs: ['Full Menu', 'Silog'],
@@ -131,7 +131,7 @@ export const menu = [
   {
     id: 13,
     name: 'Bangsilog',
-    price: 22,
+    price: 31,
     image: '/menuImages/silog-bang.webp',
     alt: 'Bangsilog with grilled bangus, sinangag fried rice and egg',
     tabs: ['Full Menu', 'Silog'],
@@ -160,7 +160,7 @@ export const menu = [
   {
     id: 16,
     name: 'Beef Pares',
-    price: 20,
+    price: 31,
     image: '/menuImages/fc-beef-pares1.webp',
     alt: 'Filipino beef pares braised beef served with rice',
     tabs: ['Full Menu', 'Filipino Classics'],
@@ -187,7 +187,7 @@ export const menu = [
   {
     id: 19,
     name: 'Palabok',
-    price: 20,
+    price: 31,
     image: '/menuImages/fc-palabok1.webp',
     alt: 'Filipino palabok noodles with shrimp sauce and toppings',
     tabs: ['Full Menu', 'Filipino Classics'],
@@ -263,7 +263,7 @@ export const menu = [
   {
     id: 27,
     name: 'Halo Halo',
-    price: 15,
+    price: 20,
     image: '/menuImages/ds-halo-halo.png',
     alt: 'Filipino halo halo mixed shaved ice dessert',
     tabs: ['Full Menu', 'Desserts'],
@@ -290,7 +290,7 @@ export const menu = [
   {
     id: 30,
     name: 'Leche Flan',
-    price: 12,
+    price: 15,
     image: '/menuImages/ds-leche-flan.webp',
     alt: 'Filipino leche flan caramel custard dessert',
     tabs: ['Full Menu', 'Desserts'],
