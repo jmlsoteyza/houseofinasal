@@ -14,7 +14,7 @@ export default function PrivacyPolicyPage() {
           Legal
         </p>
         <h1 className="text-4xl md:text-5xl font-primary font-extrabold">Privacy Policy</h1>
-        <p className="mt-4 text-green-100 font-ui text-sm">Last updated: January 2025</p>
+        <p className="mt-4 text-green-100 font-ui text-sm">Last updated: April 2026</p>
       </section>
 
       <section className="max-w-[820px] mx-auto px-6 py-12 space-y-10">
