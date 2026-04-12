@@ -28,8 +28,8 @@ export default function Navbar() {
             src="/images/logo.webp"
             alt="hof-logo"
             width={163}
-            height={59}
-            className="rounded-sm w-full h-auto"
+            height={53}
+            className="rounded-sm w-[163px] h-[53px]"
             quality={100}
           />
         </Link>
