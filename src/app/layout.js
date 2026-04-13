@@ -29,9 +29,20 @@ export const metadata = {
   description:
     'House Of Inasal in Dubai serves authentic Filipino chicken inasal, grilled BBQ, silog meals, and classic Filipino comfort food. Experience the true taste of the Philippines in the UAE!',
   openGraph: {
-    // Tells Google and social media platforms the name of the site
-    // This is what appears above the title in Google search results
-    siteName: 'House Of Inasal'
+    siteName: 'House Of Inasal',
+    url: 'https://houseofinasal.ae',
+    title: 'House Of Inasal',
+    // Description shown when sharing link on WhatsApp, Facebook, etc.
+    description:
+      'Experience the true taste of the Philippines in Dubai. Authentic chicken inasal, grilled BBQ, and classic Filipino comfort food.',
+    images: [
+      {
+        url: 'https://houseofinasal.ae/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'House Of Inasal - Filipino Restaurant in Dubai'
+      }
+    ]
   }
 };
 
