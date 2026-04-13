@@ -25,7 +25,10 @@ const rubik = Rubik({
 export const metadata = {
   title: 'House Of Inasal',
   description:
-    'House Of Inasal in Dubai serves authentic Filipino chicken inasal, grilled specialties, and traditional Filipino dishes.'
+    'House Of Inasal in Dubai serves authentic Filipino chicken inasal, grilled BBQ, silog meals, and classic Filipino comfort food. Experience the true taste of the Philippines in the UAE!',
+  openGraph: {
+    siteName: 'House Of Inasal'
+  }
 };
 
 export default function RootLayout({ children }) {
