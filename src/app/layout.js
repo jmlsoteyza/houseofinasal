@@ -78,7 +78,7 @@ export default function RootLayout({ children }) {
         />
         <Navbar />
         {/* pt - adds top padding so content doesn't hide behind the fixed navbar */}
-        <main className="pt-[4.656rem]">{children}</main>
+        <main className="pt-[4.828rem]">{children}</main>
         <Footer />
         {/* Vercel Speed Insights - tracks performance metrics (LCP, FID, CLS) */}
         <SpeedInsights />
