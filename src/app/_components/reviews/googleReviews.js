@@ -8,7 +8,7 @@ export default function GoogleReviews() {
 
   return (
     <section
-      className="py-14 px-4 bg-gray-50
+      className="py-16 px-4 bg-[#FAF5EE]
     max-md:px-5
     "
     >
