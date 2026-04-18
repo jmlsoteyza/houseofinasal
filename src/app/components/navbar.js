@@ -111,7 +111,7 @@ export default function Navbar() {
 
         <a href="tel:600560031" className="mt-auto flex flex-col">
           <p className="text-sm font-semibold font-ui leading-[0.78]">CALL US</p>
-          <p className="text-blue-300 font-primary text-xl tracking-[0.2rem] font-extrabold">
+          <p className="text-[#3A9D5D] font-primary text-xl tracking-[0.2rem] font-extrabold">
             600560031
           </p>
         </a>
