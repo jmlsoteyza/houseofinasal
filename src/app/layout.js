@@ -31,13 +31,13 @@ export const metadata = {
   openGraph: {
     siteName: 'House Of Inasal',
     url: 'https://houseofinasal.ae',
-    title: 'House Of Inasal',
+    title: 'House Of Inasal | Filipino Restaurant at Sahara Centre, Sharjah UAE',
     // Description shown when sharing link on WhatsApp, Facebook, etc.
     description:
-      'Experience the true taste of the Philippines in Dubai. Authentic chicken inasal, grilled BBQ, and classic Filipino comfort food.',
+      'Authentic Filipino grilled meals at Sahara Centre, Sharjah UAE. Chicken Inasal, Sisig, Halo-Halo & more. Dine-in, takeout & delivery via Talabat and Noon.',
     images: [
       {
-        url: 'https://houseofinasal.ae/og-image.jpg',
+        url: 'https://houseofinasal.ae/images/og-image.jpg',
         width: 1200,
         height: 630,
         alt: 'House Of Inasal - Filipino Restaurant in Dubai'
@@ -52,16 +52,35 @@ export default function RootLayout({ children }) {
   // It helps Google show rich results like ratings, hours, and location
   // in search results — making your listing more visible and informative
   const jsonLd = {
-    '@context': 'https://schema.org', // standard schema format used by Google
-    '@type': 'Restaurant', // tells Google this is a restaurant
+    '@context': 'https://schema.org',
+    '@type': 'Restaurant',
     name: 'House Of Inasal',
     url: 'https://houseofinasal.ae',
-    servesCuisine: 'Filipino', // helps Google categorize your cuisine type
+    servesCuisine: 'Filipino',
+    telephone: '+971600560031',
+    email: 'info@houseofinasal.ae',
     address: {
       '@type': 'PostalAddress',
-      addressLocality: 'Dubai', // city
-      addressCountry: 'AE' // country code for UAE
-    }
+      streetAddress: 'Food Court, 1st Floor, Sahara Centre, Sahara Atrium, East Atrium',
+      addressLocality: 'Sharjah',
+      addressCountry: 'AE'
+    },
+    openingHoursSpecification: [
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday'],
+        opens: '10:00',
+        closes: '00:00'
+      },
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Friday', 'Saturday', 'Sunday'],
+        opens: '10:00',
+        closes: '01:00'
+      }
+    ],
+    hasMenu: 'https://houseofinasal.ae/menu',
+    priceRange: 'AED 12–45'
   };
 
   return (

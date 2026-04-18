@@ -118,7 +118,10 @@ export default function PrivacyPolicyPage() {
             <br />
             <span className="font-semibold">📞 600560031</span>
             <br />
-            <span className="font-semibold">📍 Al Nahda, Sharjah, UAE</span>
+            {/* Fix: was "Al Nahda" which is a Dubai area, not Sharjah */}
+            <span className="font-semibold">
+              📍 Food Court, 1st Floor, Sahara Centre, Sharjah, UAE
+            </span>
           </p>
         </div>
 

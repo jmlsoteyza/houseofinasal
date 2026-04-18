@@ -1,9 +1,9 @@
 import LocationClient from './locationClient';
 
 export const metadata = {
-  title: 'Location | House Of Inasal',
+  title: 'Find Us | House Of Inasal – Sahara Centre, Sharjah UAE',
   description:
-    'Find House Of Inasal in Dubai. Visit us for authentic Filipino chicken inasal, grilled BBQ, and traditional Filipino dishes. Get directions now!'
+    'Visit House Of Inasal at the Food Court, 1st Floor, Sahara Centre, Sharjah. Easy access from Dubai & Sharjah. Open daily. Call +971 600 560 031.'
 };
 
 export default function Location() {

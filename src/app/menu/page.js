@@ -2,9 +2,9 @@
 import MenuClient from './_components/menuClient';
 
 export const metadata = {
-  title: 'Menu | House Of Inasal',
+  title: 'Menu | House Of Inasal – Filipino Restaurant Sharjah UAE',
   description:
-    'Explore our full menu of authentic Filipino chicken inasal, grilled BBQ, silog meals, and more. Order now at House Of Inasal Dubai!'
+    'Explore our full menu: Chicken Inasal, Sisig, Silog meals, Palabok, Halo-Halo & more. Starting from AED 12. Located at Sahara Centre, Sharjah UAE.'
 };
 
 export default function Menu() {
