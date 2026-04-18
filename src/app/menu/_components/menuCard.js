@@ -14,7 +14,7 @@ export default function MenuCard({ item, isPreloaded, onLoaded }) {
   }, [isPreloaded]);
 
   return (
-    <div className="flex flex-col rounded-lg p-6 overflow-hidden font-ui shadow-[0_0_10px_0_rgba(0,0,0,0.1)] relative">
+    <div className="flex flex-col rounded-lg p-6 overflow-hidden font-ui shadow-[0_4px_16px_0_rgba(0,0,0,0.08)] relative">
       <div className="max-w-[250px] h-[250px] w-full self-center relative">
         {isLoading && (
           <div className="absolute inset-0 w-full h-full bg-gray-200 rounded-lg animate-pulse" />
