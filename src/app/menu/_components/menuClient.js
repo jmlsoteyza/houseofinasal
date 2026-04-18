@@ -32,7 +32,7 @@ export default function MenuClient() {
           <h1 className="text-white text-4xl font-bold font-ui">Menu</h1>
         </div>
       </div>
-      <section className="max-w-[1350px] w-full min-h-screen mx-auto flex flex-col my-14">
+      <section className="max-w-[1350px] w-full min-h-screen mx-auto flex flex-col my-16">
         <div className="w-full lg:flex">
           <div className="w-48 shrink-0 flex hidden lg:block" />
           {/* spacer matching sidebar width */}

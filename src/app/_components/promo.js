@@ -14,7 +14,7 @@ export default function Promo() {
   ];
 
   return (
-    <section aria-labelledby="promo-heading" className="bg-[#1b7a40] w-full py-16">
+    <section aria-labelledby="promo-heading" className="bg-[#125C3D] w-full py-16">
       <div
         className="px-6 max-w-[78.125rem] w-full mx-auto
       max-md:px-5
