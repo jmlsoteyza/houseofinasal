@@ -56,7 +56,9 @@ export default function Navbar() {
         <div className="flex flex-row gap-8 items-center ml-auto">
           <a href="tel:600560031" className="hidden lg:flex flex-col cursor-pointer pt-2">
             <p className="text-sm font-semibold text-right font-ui leading-[0.78]">CALL US</p>
-            <p className="font-primary text-xl tracking-[0.2rem] font-bold">600560031</p>
+            <p className="font-primary text-[#2C5C2C] text-xl tracking-[0.2rem] font-bold">
+              600560031
+            </p>
           </a>
           <a
             className="py-3 px-4 text-xs text-white bg-[#1B8558] rounded-md font-bold hover:bg-[#06481F] transition-colors duration-500 max-[1025px]:hidden
