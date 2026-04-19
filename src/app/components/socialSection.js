@@ -113,7 +113,7 @@ export default function SocialSection() {
     <section className="py-10 px-4 max-md:px-5">
       <section className="max-w-[78.125rem] w-full mx-auto">
         {/* Title */}
-        <div className="mb-6">
+        <div className="mb-4">
           <h2 className="text-lg max-md:text-base font-semibold text-gray-500 uppercase tracking-widest">
             Find Us Everywhere
           </h2>
