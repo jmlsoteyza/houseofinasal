@@ -122,9 +122,9 @@ export default function SocialSection() {
         {/* Cards */}
         <section className="grid grid-cols-2 max-md:grid-cols-1 w-full gap-6 max-md:gap-6">
           {/* Left Card — Social Media */}
-          <div className="flex flex-col justify-between bg-[#F5C842] p-7 max-md:p-6 rounded-2xl min-h-[250px] max-md:min-h-[220px]">
+          <div className="flex flex-col justify-between bg-[#F0F7F2] p-7 max-md:p-6 rounded-2xl min-h-[250px] max-md:min-h-[220px]">
             <div className="flex flex-col">
-              <span className="text-xs font-bold tracking-wider uppercase text-[#7A5E00]">
+              <span className="text-xs font-bold tracking-wider uppercase text-[#1D5C3A]">
                 Stay Connected
               </span>
               <span className="text-2xl max-md:text-xl font-bold text-[#1a1a1a]">
@@ -148,7 +148,7 @@ export default function SocialSection() {
               ))}
             </div>
 
-            <p className="text-xs text-[#5C4700]">Like, follow & share for the latest promos 🍗</p>
+            <p className="text-xs text-[#4A8C6A]">Like, follow & share for the latest promos 🍗</p>
           </div>
 
           {/* Right Card — Delivery */}
