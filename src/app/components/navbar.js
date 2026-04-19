@@ -56,7 +56,7 @@ export default function Navbar() {
         <div className="flex flex-row gap-8 items-center ml-auto">
           <a href="tel:600560031" className="hidden lg:flex flex-col cursor-pointer pt-2">
             <p className="text-sm font-semibold text-right font-ui leading-[0.78]">CALL US</p>
-            <p className="font-primary text-[#2C5C2C] text-xl tracking-[0.2rem] font-bold">
+            <p className="font-primary text-[#2C5C2C] text-xl tracking-[0.2rem] font-extrabold">
               600560031
             </p>
           </a>
