@@ -3,6 +3,7 @@ import Carousel from './_components/carousel';
 import InasalSlider from './_components/inasalslider';
 import Promo from './_components/promo';
 import GoogleReviews from './_components/reviews/googleReviews';
+import SocialSection from './components/socialSection';
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Promo />
       <AboutUs />
       <GoogleReviews />
+      <SocialSection />
     </div>
   );
 }
