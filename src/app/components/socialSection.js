@@ -114,12 +114,9 @@ export default function SocialSection() {
       <section className="max-w-[78.125rem] w-full mx-auto">
         {/* Title */}
         <div className="mb-6">
-          <h2 className="text-[28px] max-md:text-2xl font-bold text-[#1a1a1a]">
+          <h2 className="text-lg max-md:text-base font-semibold text-gray-500 uppercase tracking-widest">
             Find Us Everywhere
           </h2>
-          <p className="text-sm text-gray-500 mt-1">
-            Follow us on social and order Ihaw-Sarap right to your door.
-          </p>
         </div>
 
         {/* Cards */}
