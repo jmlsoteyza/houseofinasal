@@ -110,7 +110,7 @@ export default function SocialSection() {
   ];
 
   return (
-    <section className="py-10 px-4 max-md:px-5">
+    <section className="py-14 px-5 max-md:px-5">
       <section className="max-w-[78.125rem] w-full mx-auto">
         {/* Title */}
         <div className="mb-4">
