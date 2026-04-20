@@ -68,7 +68,7 @@ export default function MenuClient() {
           <div
             className={`${
               visible ? 'fade-in' : 'fade-out'
-            } flex-1 grid grid-cols-3 py-4 px-6 gap-7 content-start
+            } flex-1 grid grid-cols-3 py-4 px-6 gap-8 content-start
   max-[1200px]:grid-cols-2
   max-md:grid-cols-1
   max-md:px-5`}
