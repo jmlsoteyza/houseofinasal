@@ -3,7 +3,10 @@ import Link from 'next/link';
 export const metadata = {
   title: 'Terms & Conditions | House Of Inasal',
   description:
-    'Read the terms and conditions of House Of Inasal. Understand the rules and guidelines for using our website and services.'
+    'Read the terms and conditions of House Of Inasal. Understand the rules and guidelines for using our website and services.',
+  alternates: {
+    canonical: 'https://houseofinasal.ae/terms'
+  }
 };
 
 export default function TermsPage() {

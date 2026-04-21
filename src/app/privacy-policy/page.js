@@ -3,7 +3,10 @@ import Link from 'next/link';
 export const metadata = {
   title: 'Privacy Policy | House Of Inasal',
   description:
-    'Read the privacy policy of House Of Inasal. Learn how we collect, use, and protect your personal information.'
+    'Read the privacy policy of House Of Inasal. Learn how we collect, use, and protect your personal information.',
+    alternates: {
+      canonical: 'https://houseofinasal.ae/privacy-policy',
+    },
 };
 
 export default function PrivacyPolicyPage() {
