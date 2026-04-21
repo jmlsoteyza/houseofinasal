@@ -25,6 +25,7 @@ const rubik = Rubik({
 // SEO Metadata - this applies to all pages as a default
 // Individual pages can override this with their own metadata
 export const metadata = {
+  metadataBase: new URL('https://houseofinasal.ae'), // ← required for canonical/OG URLs to resolve
   title: 'House Of Inasal',
   description:
     'House Of Inasal in Dubai serves authentic Filipino chicken inasal, grilled BBQ, silog meals, and classic Filipino comfort food. Experience the true taste of the Philippines in the UAE!',
