@@ -18,7 +18,7 @@ export default function GoogleReviews() {
       "
       >
         {/* Header */}
-        <div className="text-center mb-12">
+        <div className="text-center mb-8">
           <div className="inline-flex items-center gap-2 bg-white border border-gray-200 rounded-full px-4 py-1.5 mb-4 shadow-sm">
             {/* Google G logo */}
             <svg className="w-4 h-4" viewBox="0 0 24 24">
