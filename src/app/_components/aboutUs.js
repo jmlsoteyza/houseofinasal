@@ -10,7 +10,7 @@ export default function AboutUs() {
       max-md:px-5
       "
       >
-        <h2 id="about-heading" className="text-heading text-primary-heading font-heading pb-7">
+        <h2 id="about-heading" className="text-heading text-primary-heading font-heading pb-8">
           About Us
         </h2>
 
