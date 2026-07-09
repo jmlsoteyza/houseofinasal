@@ -187,7 +187,7 @@ export default function Footer() {
       <div className="border-t border-white w-full mx-auto">
         <div className="max-w-[1250px] mx-auto px-6 py-6 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs align-center text-white content-center">
           <span className="font-semibold">
-            © 2025 House of Inasal. All rights reserved.
+            © 2026 House of Inasal. All rights reserved.
             {/* Made with 🤍 by{' '}
             <a
               href="https://jmlsoteyza.vercel.app"
