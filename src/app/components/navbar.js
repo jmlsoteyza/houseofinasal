@@ -65,7 +65,7 @@ export default function Navbar() {
           "
             href="https://www.talabat.com/uae/restaurant/763104/house-of-inasal-al-nahda?aid=1518"
           >
-            <button className="cursor-pointer">Order Now</button>
+            <button className="cursor-pointer text-sm">Order Now</button>
           </a>
         </div>
 
