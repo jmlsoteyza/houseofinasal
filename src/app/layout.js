@@ -33,17 +33,22 @@ export const metadata = {
     siteName: 'House Of Inasal',
     url: 'https://houseofinasal.ae',
     title: 'House Of Inasal | Filipino Restaurant at Sahara Centre, Sharjah UAE',
-    // Description shown when sharing link on WhatsApp, Facebook, etc.
     description:
       'Authentic Filipino grilled meals at Sahara Centre, Sharjah UAE. Chicken Inasal, Sisig, Halo-Halo & more. Dine-in, takeout & delivery via Talabat and Noon.',
     images: [
       {
-        url: 'https://houseofinasal.ae/images/og-image.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'House Of Inasal - Filipino Restaurant in Dubai'
+        url: 'https://houseofinasal.ae/images/og-thumbnail.jpg',
+        width: 400,
+        height: 400,
+        alt: 'House Of Inasal'
       }
     ]
+  },
+  twitter: {
+    card: 'summary',
+    title: 'House Of Inasal | Filipino Restaurant at Sahara Centre, Sharjah UAE',
+    description: 'Authentic Filipino grilled meals at Sahara Centre, Sharjah UAE.',
+    images: ['https://houseofinasal.ae/images/og-thumbnail.jpg']
   }
 };
 
